@@ -1,0 +1,33 @@
+# ST-GCN checkpoint configuration for INCLUDE sign recognition
+# This reflects the checkpoint that is ACTUALLY LOADED by openhands_wrapper.py.
+# The wrapper hardcodes its own paths; this file is a reference document.
+
+pretrained: "data/checkpoints/include/st_gcn/epoch=215-step=23543.ckpt"
+
+data:
+  modality: "pose"
+  valid_pipeline:
+    dataset:
+      name: "INCLUDEDataset"
+      root_dir: "data/include_poses/INCLUDE/Pose_Signs"
+      split_file: "data/include_metadata/Train_Test_Split/test_include.csv"
+      inference_mode: true
+    transforms:
+      - name: "PoseSelect"
+        preset: "mediapipe_holistic_minimal_27"
+      - name: "PoseUniformSubsampling"
+        num_frames: 120
+      - name: "CenterAndScaleNormalize"
+        reference_points_preset: "shoulder_mediapipe_holistic_minimal_27"
+
+model:
+  encoder:
+    type: "st-gcn"
+  decoder:
+    type: "fc"
+    num_classes: 263
+
+# NOTE: The decoder accuracy on this checkpoint is ~16% (collapsed training).
+# Production inference uses KNN cosine lookup on 256-dim encoder embeddings instead.
+# KNN index: data/checkpoints/include/st_gcn/knn_embeddings.npy + knn_labels.npy
+# Rebuild index: python3 data/scripts/build_knn_index.py

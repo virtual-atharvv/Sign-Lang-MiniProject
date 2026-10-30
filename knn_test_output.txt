@@ -1,0 +1,3261 @@
+KNN Evaluation — 813 test samples, k=5
+Model: epoch=215-step=23543.ckpt
+Index: 816 train embeddings, 256-dim
+
+  [TOP3] GT=1. loud | Pred=NEWSPAPER | conf=0.402
+         nbr: 1. loud sim=0.9833
+         nbr: 15. Newspaper sim=0.9803
+         nbr: 15. Newspaper sim=0.9752
+  [OK  ] GT=1. loud | Pred=LOUD | conf=0.404
+         nbr: 1. loud sim=0.9587
+         nbr: 1. loud sim=0.9445
+         nbr: 15. Newspaper sim=0.9426
+  [TOP3] GT=1. loud | Pred=NEWSPAPER | conf=0.400
+         nbr: 1. loud sim=0.9770
+         nbr: 15. Newspaper sim=0.9726
+         nbr: 85. Student sim=0.9717
+  [OK  ] GT=1. loud | Pred=LOUD | conf=0.400
+         nbr: 85. Student sim=0.9613
+         nbr: 1. loud sim=0.9555
+         nbr: 83. big large sim=0.9507
+  [FAIL] GT=10. Mean | Pred=I | conf=0.401
+         nbr: 4. sad sim=0.9607
+         nbr: 40. I sim=0.9602
+         nbr: 38. Dress sim=0.9512
+  [TOP3] GT=10. Mean | Pred=TRAIN | conf=0.200
+         nbr: 9. Train sim=0.9775
+         nbr: 44. it sim=0.9768
+         nbr: 10. Mean sim=0.9765
+  [FAIL] GT=11. rich | Pred=COLOUR | conf=0.399
+         nbr: 7. Horse sim=0.9708
+         nbr: 57. Colour sim=0.9637
+         nbr: 33. dead sim=0.9625
+  [OK  ] GT=11. rich | Pred=RICH | conf=0.207
+         nbr: 11. rich sim=0.9714
+         nbr: 20. Street or Road sim=0.9436
+         nbr: 7. Horse sim=0.9297
+  [OK  ] GT=12. poor | Pred=POOR | conf=0.212
+         nbr: 12. poor sim=0.9754
+         nbr: 17. Transportation sim=0.9137
+         nbr: 4. Bird sim=0.9049
+  [OK  ] GT=13. thick | Pred=THICK | conf=0.401
+         nbr: 13. thick sim=0.9653
+         nbr: 50. Yellow sim=0.9595
+         nbr: 90. cool sim=0.9583
+  [OK  ] GT=13. thick | Pred=THICK | conf=0.201
+         nbr: 13. thick sim=0.9806
+         nbr: 90. cool sim=0.9769
+         nbr: 54. Cell phone sim=0.9738
+  [OK  ] GT=14. thin | Pred=THIN | conf=0.202
+         nbr: 14. thin sim=0.9806
+         nbr: 40. I sim=0.9746
+         nbr: 15. expensive sim=0.9659
+  [OK  ] GT=15. expensive | Pred=EXPENSIVE | conf=0.402
+         nbr: 15. expensive sim=0.9825
+         nbr: 15. expensive sim=0.9741
+         nbr: 46. you (plural) sim=0.9734
+  [OK  ] GT=15. expensive | Pred=EXPENSIVE | conf=0.401
+         nbr: 15. expensive sim=0.9880
+         nbr: 44. it sim=0.9772
+         nbr: 46. Clothing sim=0.9740
+  [OK  ] GT=16. cheap | Pred=CHEAP | conf=0.203
+         nbr: 16. cheap sim=0.9871
+         nbr: 15. expensive sim=0.9711
+         nbr: 53. Orange sim=0.9699
+  [OK  ] GT=16. cheap | Pred=CHEAP | conf=0.400
+         nbr: 16. cheap sim=0.9772
+         nbr: 44. it sim=0.9770
+         nbr: 15. expensive sim=0.9766
+  [OK  ] GT=17. flat | Pred=FLAT | conf=0.203
+         nbr: 17. flat sim=0.9356
+         nbr: 16. train ticket sim=0.9254
+         nbr: 30. Hospital sim=0.9200
+  [TOP3] GT=18. curved | Pred=HAT | conf=0.400
+         nbr: 18. curved sim=0.9892
+         nbr: 37. Hat sim=0.9834
+         nbr: 37. Hat sim=0.9783
+  [FAIL] GT=19. male | Pred=HAT | conf=0.200
+         nbr: 37. Hat sim=0.9789
+         nbr: 15. expensive sim=0.9784
+         nbr: 57. Colour sim=0.9763
+  [OK  ] GT=19. male | Pred=MALE | conf=0.203
+         nbr: 19. male sim=0.9726
+         nbr: 40. I sim=0.9561
+         nbr: 14. thin sim=0.9544
+  [OK  ] GT=2. quiet | Pred=QUIET | conf=0.404
+         nbr: 2. quiet sim=0.9834
+         nbr: 2. quiet sim=0.9746
+         nbr: 40. I sim=0.9673
+  [TOP3] GT=2. quiet | Pred=I | conf=0.400
+         nbr: 2. quiet sim=0.9764
+         nbr: 40. I sim=0.9740
+         nbr: 40. I sim=0.9738
+  [TOP3] GT=2. quiet | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9720
+         nbr: 2. quiet sim=0.9616
+         nbr: 4. sad sim=0.9609
+  [TOP3] GT=2. quiet | Pred=WHITE | conf=0.201
+         nbr: 55. White sim=0.9732
+         nbr: 46. you (plural) sim=0.9697
+         nbr: 2. quiet sim=0.9692
+  [FAIL] GT=20. female | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9738
+         nbr: 38. Dress sim=0.9693
+         nbr: 41. you sim=0.9659
+  [FAIL] GT=20. female | Pred=DEAD | conf=0.200
+         nbr: 33. dead sim=0.9759
+         nbr: 9. Train sim=0.9754
+         nbr: 95. bad sim=0.9726
+  [FAIL] GT=21. tight | Pred=BAD | conf=0.403
+         nbr: 95. bad sim=0.9722
+         nbr: 95. bad sim=0.9721
+         nbr: 33. dead sim=0.9634
+  [TOP3] GT=22. loose | Pred=ANIMAL | conf=0.202
+         nbr: 8. Animal sim=0.9144
+         nbr: 44. Shoes sim=0.9131
+         nbr: 22. loose sim=0.9085
+  [OK  ] GT=23. high | Pred=HIGH | conf=0.402
+         nbr: 23. high sim=0.9683
+         nbr: 23. high sim=0.9597
+         nbr: 5. Cow sim=0.9577
+  [TOP3] GT=23. high | Pred=COW | conf=0.400
+         nbr: 5. Cow sim=0.9609
+         nbr: 23. high sim=0.9594
+         nbr: 31. Temple sim=0.9592
+  [FAIL] GT=24. low | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9761
+         nbr: 15. expensive sim=0.9677
+         nbr: 44. it sim=0.9676
+  [FAIL] GT=25. soft | Pred=LIBRARY | conf=0.201
+         nbr: 29. Library sim=0.9592
+         nbr: 16. train ticket sim=0.9535
+         nbr: 85. Student sim=0.9530
+  [TOP3] GT=26. hard | Pred=HORSE | conf=0.401
+         nbr: 26. hard sim=0.9429
+         nbr: 7. Horse sim=0.9348
+         nbr: 7. Horse sim=0.9340
+  [FAIL] GT=26. hard | Pred=TRAIN | conf=0.201
+         nbr: 9. Train sim=0.9720
+         nbr: 46. you (plural) sim=0.9670
+         nbr: 5. Beautiful sim=0.9633
+  [OK  ] GT=27. deep | Pred=DEEP | conf=0.406
+         nbr: 27. deep sim=0.9378
+         nbr: 17. Transportation sim=0.9165
+         nbr: 27. deep sim=0.9034
+  [OK  ] GT=27. deep | Pred=DEEP | conf=0.201
+         nbr: 27. deep sim=0.9501
+         nbr: 5. Cow sim=0.9443
+         nbr: 91. Priest sim=0.9418
+  [OK  ] GT=28. shallow | Pred=SHALLOW | conf=0.211
+         nbr: 28. shallow sim=0.9860
+         nbr: 77. Boy sim=0.9306
+         nbr: 62. Parent sim=0.9229
+  [OK  ] GT=29. clean | Pred=CLEAN | conf=0.205
+         nbr: 29. clean sim=0.9610
+         nbr: 84. small little sim=0.9370
+         nbr: 87. hot sim=0.9321
+  [OK  ] GT=3. happy | Pred=HAPPY | conf=0.209
+         nbr: 3. happy sim=0.9034
+         nbr: 42. T-Shirt sim=0.8784
+         nbr: 62. Spring sim=0.8500
+  [FAIL] GT=3. happy | Pred=BIRD | conf=0.398
+         nbr: 8. Animal sim=0.9443
+         nbr: 4. Bird sim=0.9234
+         nbr: 12. Truck sim=0.9209
+  [FAIL] GT=3. happy | Pred=CARD | conf=0.201
+         nbr: 48. Card sim=0.9414
+         nbr: 4. Bird sim=0.9407
+         nbr: 40. I sim=0.9328
+  [FAIL] GT=3. happy | Pred=BIRD | conf=0.399
+         nbr: 8. Animal sim=0.9335
+         nbr: 4. Bird sim=0.9141
+         nbr: 42. T-Shirt sim=0.9071
+  [TOP3] GT=30. dirty | Pred=SIGN | conf=0.204
+         nbr: 21. Sign sim=0.9525
+         nbr: 30. dirty sim=0.9404
+         nbr: 41. you sim=0.9348
+  [FAIL] GT=31. strong | Pred=SICK | conf=0.401
+         nbr: 98. sick sim=0.9621
+         nbr: 91. Priest sim=0.9559
+         nbr: 23. God sim=0.9554
+  [FAIL] GT=31. strong | Pred=FAN | conf=0.399
+         nbr: 11. Car sim=0.9548
+         nbr: 53. Fan sim=0.9456
+         nbr: 5. Cow sim=0.9436
+  [OK  ] GT=32. weak | Pred=WEAK | conf=0.206
+         nbr: 32. weak sim=0.9747
+         nbr: 20. Street or Road sim=0.9446
+         nbr: 3. Fish sim=0.9432
+  [OK  ] GT=32. weak | Pred=WEAK | conf=0.403
+         nbr: 32. weak sim=0.9692
+         nbr: 3. Fish sim=0.9566
+         nbr: 32. weak sim=0.9456
+  [OK  ] GT=33. dead | Pred=DEAD | conf=0.201
+         nbr: 33. dead sim=0.9733
+         nbr: 9. Train sim=0.9718
+         nbr: 38. Dress sim=0.9685
+  [OK  ] GT=34. alive | Pred=ALIVE | conf=0.203
+         nbr: 34. alive sim=0.9870
+         nbr: 40. I sim=0.9771
+         nbr: 9. Train sim=0.9734
+  [TOP3] GT=35. heavy | Pred=MORNING | conf=0.201
+         nbr: 82. Morning sim=0.9690
+         nbr: 35. heavy sim=0.9690
+         nbr: 95. bad sim=0.9644
+  [FAIL] GT=36. light | Pred=AUTHOR | conf=0.201
+         nbr: 95. Author sim=0.9365
+         nbr: 5. Bill sim=0.9340
+         nbr: 14. Bus sim=0.9331
+  [TOP3] GT=36. light | Pred=LIBRARY | conf=0.202
+         nbr: 29. Library sim=0.9556
+         nbr: 36. light sim=0.9483
+         nbr: 84. small little sim=0.9433
+  [FAIL] GT=39. famous | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9808
+         nbr: 48. Hello sim=0.9750
+         nbr: 14. thin sim=0.9673
+  [TOP3] GT=4. sad | Pred=MOUSE | conf=0.401
+         nbr: 4. sad sim=0.9722
+         nbr: 6. Mouse sim=0.9627
+         nbr: 6. Mouse sim=0.9622
+  [OK  ] GT=5. Beautiful | Pred=BEAUTIFUL | conf=0.202
+         nbr: 5. Beautiful sim=0.9911
+         nbr: 9. Train sim=0.9844
+         nbr: 48. Green sim=0.9798
+  [FAIL] GT=6. Ugly | Pred=BEAUTIFUL | conf=0.201
+         nbr: 5. Beautiful sim=0.9808
+         nbr: 9. Train sim=0.9791
+         nbr: 48. Green sim=0.9763
+  [TOP3] GT=6. Ugly | Pred=GOOD EVENING | conf=0.397
+         nbr: 6. Ugly sim=0.9689
+         nbr: 40. I sim=0.9490
+         nbr: 43. she sim=0.9488
+  [FAIL] GT=7. Deaf | Pred=I | conf=0.203
+         nbr: 40. I sim=0.9803
+         nbr: 81. Second sim=0.9638
+         nbr: 86. fast sim=0.9622
+  [TOP3] GT=78. long | Pred=FISH | conf=0.203
+         nbr: 3. Fish sim=0.9524
+         nbr: 78. long sim=0.9496
+         nbr: 32. weak sim=0.9371
+  [OK  ] GT=78. long | Pred=LONG | conf=0.204
+         nbr: 78. long sim=0.9320
+         nbr: 85. slow sim=0.9203
+         nbr: 51. Brown sim=0.9120
+  [TOP3] GT=78. long | Pred=STREET OR ROAD | conf=0.201
+         nbr: 20. Street or Road sim=0.9499
+         nbr: 85. slow sim=0.9460
+         nbr: 78. long sim=0.9431
+  [TOP3] GT=78. long | Pred=FISH | conf=0.400
+         nbr: 51. Brown sim=0.9280
+         nbr: 3. Fish sim=0.9240
+         nbr: 78. long sim=0.9147
+  [TOP3] GT=79. short | Pred=T-SHIRT | conf=0.398
+         nbr: 45. we sim=0.9276
+         nbr: 79. short sim=0.9192
+         nbr: 42. T-Shirt sim=0.9149
+  [FAIL] GT=79. short | Pred=BILL | conf=0.202
+         nbr: 5. Bill sim=0.9172
+         nbr: 4. Bird sim=0.9127
+         nbr: 95. Author sim=0.9101
+  [FAIL] GT=79. short | Pred=SHIRT | conf=0.201
+         nbr: 41. Shirt sim=0.9346
+         nbr: 48. Card sim=0.9333
+         nbr: 2. Death sim=0.9313
+  [FAIL] GT=79. short | Pred=T-SHIRT | conf=0.203
+         nbr: 42. T-Shirt sim=0.9327
+         nbr: 17. Sport sim=0.9246
+         nbr: 14. Bus sim=0.9194
+  [FAIL] GT=8. Blind | Pred=I | conf=0.401
+         nbr: 40. I sim=0.9668
+         nbr: 81. Second sim=0.9628
+         nbr: 40. I sim=0.9581
+  [FAIL] GT=80. tall | Pred=FAN | conf=0.400
+         nbr: 53. Fan sim=0.9646
+         nbr: 13. thick sim=0.9630
+         nbr: 79. Child sim=0.9607
+  [FAIL] GT=80. tall | Pred=FAST | conf=0.202
+         nbr: 86. fast sim=0.9727
+         nbr: 40. I sim=0.9713
+         nbr: 44. it sim=0.9609
+  [FAIL] GT=80. tall | Pred=THICK | conf=0.201
+         nbr: 13. thick sim=0.9656
+         nbr: 86. fast sim=0.9648
+         nbr: 40. I sim=0.9623
+  [TOP3] GT=80. tall | Pred=THICK | conf=0.203
+         nbr: 13. thick sim=0.9474
+         nbr: 79. Child sim=0.9321
+         nbr: 80. tall sim=0.9312
+  [FAIL] GT=81. wide | Pred=BIRD | conf=0.404
+         nbr: 4. Bird sim=0.9227
+         nbr: 17. Sport sim=0.9098
+         nbr: 4. Bird sim=0.9077
+  [OK  ] GT=81. wide | Pred=WIDE | conf=0.208
+         nbr: 81. wide sim=0.9481
+         nbr: 82. narrow sim=0.9058
+         nbr: 11. rich sim=0.9025
+  [FAIL] GT=81. wide | Pred=SICK | conf=0.201
+         nbr: 98. sick sim=0.9635
+         nbr: 16. cheap sim=0.9628
+         nbr: 37. Hat sim=0.9566
+  [FAIL] GT=81. wide | Pred=BIRD | conf=0.404
+         nbr: 4. Bird sim=0.8846
+         nbr: 4. Bird sim=0.8692
+         nbr: 8. Animal sim=0.8655
+  [FAIL] GT=82. narrow | Pred=COW | conf=0.402
+         nbr: 5. Cow sim=0.9559
+         nbr: 17. Transportation sim=0.9492
+         nbr: 31. Temple sim=0.9453
+  [TOP3] GT=82. narrow | Pred=TRUCK | conf=0.202
+         nbr: 12. Truck sim=0.9497
+         nbr: 56. Pleased sim=0.9453
+         nbr: 82. narrow sim=0.9403
+  [TOP3] GT=82. narrow | Pred=SKIRT | conf=0.400
+         nbr: 82. narrow sim=0.9446
+         nbr: 40. Skirt sim=0.9441
+         nbr: 6. Mouse sim=0.9304
+  [TOP3] GT=82. narrow | Pred=EXERCISE | conf=0.394
+         nbr: 82. narrow sim=0.9513
+         nbr: 81. wide sim=0.9104
+         nbr: 18. Exercise sim=0.8995
+  [TOP3] GT=83. big large | Pred=BIRD | conf=0.402
+         nbr: 4. Bird sim=0.9407
+         nbr: 83. big large sim=0.9220
+         nbr: 12. Truck sim=0.9191
+  [FAIL] GT=83. big large | Pred=NEWSPAPER | conf=0.398
+         nbr: 96. wet sim=0.9588
+         nbr: 85. Student sim=0.9532
+         nbr: 15. Newspaper sim=0.9499
+  [OK  ] GT=83. big large | Pred=BIG LARGE | conf=0.398
+         nbr: 4. Bird sim=0.9435
+         nbr: 11. rich sim=0.9227
+         nbr: 83. big large sim=0.9220
+  [TOP3] GT=83. big large | Pred=HEALTHY | conf=0.398
+         nbr: 96. wet sim=0.9586
+         nbr: 83. big large sim=0.9560
+         nbr: 99. healthy sim=0.9480
+  [FAIL] GT=84. small little | Pred=WET | conf=0.402
+         nbr: 96. wet sim=0.9598
+         nbr: 96. wet sim=0.9531
+         nbr: 83. Crowd sim=0.9497
+  [FAIL] GT=84. small little | Pred=WET | conf=0.400
+         nbr: 36. light sim=0.9418
+         nbr: 96. wet sim=0.9405
+         nbr: 96. wet sim=0.9362
+  [OK  ] GT=84. small little | Pred=SMALL LITTLE | conf=0.401
+         nbr: 29. Library sim=0.9526
+         nbr: 84. small little sim=0.9504
+         nbr: 84. small little sim=0.9332
+  [OK  ] GT=84. small little | Pred=SMALL LITTLE | conf=0.205
+         nbr: 84. small little sim=0.9868
+         nbr: 29. Library sim=0.9649
+         nbr: 5. Beautiful sim=0.9600
+  [TOP3] GT=85. slow | Pred=FISH | conf=0.402
+         nbr: 3. Fish sim=0.9554
+         nbr: 85. slow sim=0.9419
+         nbr: 3. Fish sim=0.9413
+  [TOP3] GT=85. slow | Pred=FISH | conf=0.203
+         nbr: 3. Fish sim=0.9596
+         nbr: 85. slow sim=0.9479
+         nbr: 20. Street or Road sim=0.9435
+  [OK  ] GT=85. slow | Pred=SLOW | conf=0.208
+         nbr: 85. slow sim=0.9815
+         nbr: 20. Street or Road sim=0.9443
+         nbr: 6. Mouse sim=0.9377
+  [OK  ] GT=85. slow | Pred=SLOW | conf=0.402
+         nbr: 85. slow sim=0.9505
+         nbr: 3. Fish sim=0.9397
+         nbr: 32. weak sim=0.9058
+  [FAIL] GT=86. fast | Pred=IT | conf=0.201
+         nbr: 44. it sim=0.9787
+         nbr: 9. Train sim=0.9751
+         nbr: 64. Fall sim=0.9736
+  [FAIL] GT=86. fast | Pred=IT | conf=0.403
+         nbr: 44. it sim=0.9620
+         nbr: 4. sad sim=0.9394
+         nbr: 40. I sim=0.9341
+  [OK  ] GT=86. fast | Pred=FAST | conf=0.201
+         nbr: 86. fast sim=0.9424
+         nbr: 21. Sign sim=0.9373
+         nbr: 40. I sim=0.9351
+  [TOP3] GT=86. fast | Pred=I | conf=0.201
+         nbr: 40. I sim=0.9798
+         nbr: 86. fast sim=0.9783
+         nbr: 38. Dress sim=0.9747
+  [OK  ] GT=87. hot | Pred=HOT | conf=0.202
+         nbr: 87. hot sim=0.9709
+         nbr: 84. small little sim=0.9641
+         nbr: 6. Ugly sim=0.9617
+  [OK  ] GT=87. hot | Pred=HOT | conf=0.402
+         nbr: 87. hot sim=0.9567
+         nbr: 82. narrow sim=0.9409
+         nbr: 84. small little sim=0.9378
+  [OK  ] GT=87. hot | Pred=HOT | conf=0.399
+         nbr: 30. Bedroom sim=0.9471
+         nbr: 24. School sim=0.9471
+         nbr: 87. hot sim=0.9408
+  [OK  ] GT=87. hot | Pred=HOT | conf=0.407
+         nbr: 87. hot sim=0.9602
+         nbr: 27. Park sim=0.9118
+         nbr: 27. Park sim=0.9006
+  [FAIL] GT=88. cold | Pred=WINTER | conf=0.405
+         nbr: 63. Winter sim=0.9435
+         nbr: 63. Winter sim=0.9259
+         nbr: 45. Bag sim=0.9155
+  [OK  ] GT=88. cold | Pred=COLD | conf=0.205
+         nbr: 88. cold sim=0.9067
+         nbr: 42. T-Shirt sim=0.8834
+         nbr: 79. short sim=0.8813
+  [OK  ] GT=88. cold | Pred=COLD | conf=0.402
+         nbr: 88. cold sim=0.8988
+         nbr: 42. T-Shirt sim=0.8847
+         nbr: 50. Alright sim=0.8839
+  [FAIL] GT=88. cold | Pred=WINTER | conf=0.407
+         nbr: 63. Winter sim=0.9596
+         nbr: 63. Winter sim=0.9323
+         nbr: 38. Dress sim=0.9233
+  [FAIL] GT=89. warm | Pred=GOOD AFTERNOON | conf=0.201
+         nbr: 52. Good afternoon sim=0.9678
+         nbr: 48. Hello sim=0.9664
+         nbr: 16. cheap sim=0.9614
+  [TOP3] GT=89. warm | Pred=ORANGE | conf=0.202
+         nbr: 53. Orange sim=0.9754
+         nbr: 89. warm sim=0.9615
+         nbr: 48. Green sim=0.9613
+  [OK  ] GT=89. warm | Pred=WARM | conf=0.400
+         nbr: 89. warm sim=0.9597
+         nbr: 53. Orange sim=0.9560
+         nbr: 52. Good afternoon sim=0.9504
+  [TOP3] GT=89. warm | Pred=HELLO | conf=0.400
+         nbr: 89. warm sim=0.9722
+         nbr: 48. Hello sim=0.9670
+         nbr: 52. Good afternoon sim=0.9636
+  [TOP3] GT=9. Nice | Pred=MOUSE | conf=0.401
+         nbr: 9. Nice sim=0.9764
+         nbr: 6. Mouse sim=0.9731
+         nbr: 6. Mouse sim=0.9678
+  [OK  ] GT=90. cool | Pred=COOL | conf=0.202
+         nbr: 90. cool sim=0.9700
+         nbr: 40. I sim=0.9633
+         nbr: 46. Clothing sim=0.9592
+  [TOP3] GT=90. cool | Pred=MOUSE | conf=0.397
+         nbr: 90. cool sim=0.9844
+         nbr: 6. Mouse sim=0.9599
+         nbr: 40. I sim=0.9593
+  [TOP3] GT=90. cool | Pred=GRANDMOTHER | conf=0.205
+         nbr: 70. Grandmother sim=0.9555
+         nbr: 90. cool sim=0.9280
+         nbr: 30. dirty sim=0.9249
+  [FAIL] GT=90. cool | Pred=GRANDMOTHER | conf=0.205
+         nbr: 70. Grandmother sim=0.9549
+         nbr: 30. dirty sim=0.9308
+         nbr: 86. fast sim=0.9297
+  [OK  ] GT=91. new | Pred=NEW | conf=0.402
+         nbr: 91. new sim=0.9159
+         nbr: 33. Pencil sim=0.9157
+         nbr: 86. fast sim=0.8987
+  [FAIL] GT=91. new | Pred=GOOD EVENING | conf=0.396
+         nbr: 33. Pencil sim=0.9130
+         nbr: 86. fast sim=0.9074
+         nbr: 89. Waiter sim=0.8903
+  [FAIL] GT=91. new | Pred=GREEN | conf=0.398
+         nbr: 19. Ball sim=0.9758
+         nbr: 54. Good night sim=0.9700
+         nbr: 49. Blue sim=0.9691
+  [FAIL] GT=91. new | Pred=GOOD MORNING | conf=0.399
+         nbr: 86. fast sim=0.9684
+         nbr: 16. cheap sim=0.9643
+         nbr: 51. Good Morning sim=0.9632
+  [FAIL] GT=92. old | Pred=ADULT | conf=0.401
+         nbr: 80. Adult sim=0.9633
+         nbr: 79. Child sim=0.9583
+         nbr: 80. Adult sim=0.9562
+  [TOP3] GT=92. old | Pred=ADULT | conf=0.397
+         nbr: 92. old sim=0.9595
+         nbr: 78. Girl sim=0.9281
+         nbr: 47. they sim=0.9240
+  [TOP3] GT=92. old | Pred=QUEEN | conf=0.400
+         nbr: 74. Queen sim=0.9657
+         nbr: 92. old sim=0.9640
+         nbr: 79. Child sim=0.9618
+  [TOP3] GT=92. old | Pred=GOOD EVENING | conf=0.598
+         nbr: 92. old sim=0.9810
+         nbr: 53. Good evening sim=0.9650
+         nbr: 53. Good evening sim=0.9648
+  [TOP3] GT=93. young | Pred=POCKET | conf=0.409
+         nbr: 45. Pocket sim=0.9444
+         nbr: 45. Pocket sim=0.9282
+         nbr: 93. young sim=0.9060
+  [FAIL] GT=93. young | Pred=ORANGE | conf=0.201
+         nbr: 53. Orange sim=0.9765
+         nbr: 46. Clothing sim=0.9750
+         nbr: 9. Train sim=0.9728
+  [TOP3] GT=93. young | Pred=MOUSE | conf=0.401
+         nbr: 6. Mouse sim=0.9533
+         nbr: 6. Mouse sim=0.9463
+         nbr: 93. young sim=0.9456
+  [FAIL] GT=93. young | Pred=TRAIN | conf=0.201
+         nbr: 9. Train sim=0.9751
+         nbr: 53. Orange sim=0.9721
+         nbr: 57. Colour sim=0.9715
+  [FAIL] GT=94. good | Pred=GOOD MORNING | conf=0.401
+         nbr: 51. Good Morning sim=0.9729
+         nbr: 49. Blue sim=0.9727
+         nbr: 51. Good Morning sim=0.9710
+  [FAIL] GT=94. good | Pred=BALL | conf=0.201
+         nbr: 19. Ball sim=0.9725
+         nbr: 4. sad sim=0.9720
+         nbr: 9. Nice sim=0.9694
+  [OK  ] GT=94. good | Pred=GOOD | conf=0.401
+         nbr: 94. good sim=0.9731
+         nbr: 51. Good Morning sim=0.9681
+         nbr: 49. Blue sim=0.9656
+  [TOP3] GT=94. good | Pred=BLUE | conf=0.400
+         nbr: 94. good sim=0.9689
+         nbr: 49. Blue sim=0.9638
+         nbr: 4. Money sim=0.9597
+  [FAIL] GT=95. bad | Pred=EXPENSIVE | conf=0.201
+         nbr: 15. expensive sim=0.9788
+         nbr: 37. Hat sim=0.9728
+         nbr: 10. Mean sim=0.9723
+  [FAIL] GT=95. bad | Pred=I | conf=0.399
+         nbr: 44. it sim=0.9486
+         nbr: 43. she sim=0.9411
+         nbr: 4. sad sim=0.9409
+  [TOP3] GT=95. bad | Pred=EXPENSIVE | conf=0.201
+         nbr: 15. expensive sim=0.9766
+         nbr: 95. bad sim=0.9745
+         nbr: 10. Mean sim=0.9722
+  [FAIL] GT=95. bad | Pred=I | conf=0.201
+         nbr: 40. I sim=0.9644
+         nbr: 16. cheap sim=0.9612
+         nbr: 53. Good evening sim=0.9600
+  [FAIL] GT=96. wet | Pred=BEAUTIFUL | conf=0.200
+         nbr: 5. Beautiful sim=0.9590
+         nbr: 40. I sim=0.9586
+         nbr: 46. you (plural) sim=0.9571
+  [OK  ] GT=96. wet | Pred=WET | conf=0.400
+         nbr: 96. wet sim=0.9686
+         nbr: 54. Good night sim=0.9685
+         nbr: 48. Green sim=0.9682
+  [OK  ] GT=96. wet | Pred=WET | conf=0.401
+         nbr: 96. wet sim=0.9548
+         nbr: 48. Green sim=0.9525
+         nbr: 96. wet sim=0.9494
+  [OK  ] GT=96. wet | Pred=WET | conf=0.401
+         nbr: 96. wet sim=0.9739
+         nbr: 48. Green sim=0.9716
+         nbr: 96. wet sim=0.9710
+  [FAIL] GT=97. dry | Pred=LIGHT | conf=0.201
+         nbr: 36. light sim=0.9688
+         nbr: 54. Good night sim=0.9684
+         nbr: 87. hot sim=0.9642
+  [FAIL] GT=97. dry | Pred=AUTHOR | conf=0.600
+         nbr: 95. Author sim=0.9449
+         nbr: 30. Bedroom sim=0.9430
+         nbr: 95. Author sim=0.9420
+  [TOP3] GT=97. dry | Pred=MANAGER | conf=0.202
+         nbr: 96. Manager sim=0.9355
+         nbr: 95. Author sim=0.9275
+         nbr: 97. dry sim=0.9227
+  [FAIL] GT=97. dry | Pred=TRAIN TICKET | conf=0.200
+         nbr: 16. train ticket sim=0.9589
+         nbr: 2. Death sim=0.9587
+         nbr: 54. Good night sim=0.9577
+  [TOP3] GT=98. sick | Pred=FALL | conf=0.399
+         nbr: 98. sick sim=0.9813
+         nbr: 64. Fall sim=0.9755
+         nbr: 37. Hat sim=0.9740
+  [OK  ] GT=98. sick | Pred=SICK | conf=0.618
+         nbr: 98. sick sim=0.9825
+         nbr: 98. sick sim=0.9736
+         nbr: 98. sick sim=0.9014
+  [TOP3] GT=98. sick | Pred=ORANGE | conf=0.597
+         nbr: 98. sick sim=0.9899
+         nbr: 98. sick sim=0.9814
+         nbr: 53. Orange sim=0.9812
+  [OK  ] GT=98. sick | Pred=SICK | conf=0.612
+         nbr: 98. sick sim=0.9809
+         nbr: 98. sick sim=0.9724
+         nbr: 98. sick sim=0.9373
+  [FAIL] GT=99. healthy | Pred=LIGHT | conf=0.202
+         nbr: 36. light sim=0.9609
+         nbr: 29. Library sim=0.9543
+         nbr: 83. Crowd sim=0.9512
+  [FAIL] GT=99. healthy | Pred=THANK YOU | conf=0.401
+         nbr: 96. wet sim=0.9699
+         nbr: 55. Thank you sim=0.9662
+         nbr: 55. Thank you sim=0.9599
+  [FAIL] GT=99. healthy | Pred=LIGHT | conf=0.201
+         nbr: 36. light sim=0.9621
+         nbr: 29. Library sim=0.9580
+         nbr: 55. Thank you sim=0.9562
+  [OK  ] GT=99. healthy | Pred=HEALTHY | conf=0.204
+         nbr: 99. healthy sim=0.9750
+         nbr: 83. Crowd sim=0.9561
+         nbr: 49. How are you sim=0.9516
+  [OK  ] GT=1. Dog | Pred=DOG | conf=0.210
+         nbr: 1. Dog sim=0.9851
+         nbr: 10. Plane sim=0.9341
+         nbr: 6. Mouse sim=0.9331
+  [OK  ] GT=1. Dog | Pred=DOG | conf=0.410
+         nbr: 1. Dog sim=0.9980
+         nbr: 9. Train sim=0.9315
+         nbr: 1. Dog sim=0.9211
+  [OK  ] GT=1. Dog | Pred=DOG | conf=0.412
+         nbr: 1. Dog sim=0.9858
+         nbr: 1. Dog sim=0.9321
+         nbr: 9. Train sim=0.9143
+  [OK  ] GT=1. Dog | Pred=DOG | conf=0.613
+         nbr: 1. Dog sim=0.9746
+         nbr: 1. Dog sim=0.9504
+         nbr: 1. Dog sim=0.9110
+  [OK  ] GT=2. Cat | Pred=CAT | conf=0.603
+         nbr: 2. Cat sim=0.9487
+         nbr: 2. Cat sim=0.9379
+         nbr: 2. Cat sim=0.9298
+  [TOP3] GT=2. Cat | Pred=TECHNOLOGY | conf=0.398
+         nbr: 2. Cat sim=0.9831
+         nbr: 9. Technology sim=0.9458
+         nbr: 9. Technology sim=0.9417
+  [OK  ] GT=2. Cat | Pred=CAT | conf=0.201
+         nbr: 2. Cat sim=0.9698
+         nbr: 57. Colour sim=0.9639
+         nbr: 33. dead sim=0.9628
+  [OK  ] GT=2. Cat | Pred=CAT | conf=0.206
+         nbr: 2. Cat sim=0.9874
+         nbr: 16. train ticket sim=0.9570
+         nbr: 9. Train sim=0.9474
+  [TOP3] GT=3. Fish | Pred=MOUSE | conf=0.599
+         nbr: 3. Fish sim=0.9845
+         nbr: 6. Mouse sim=0.9786
+         nbr: 6. Mouse sim=0.9768
+  [OK  ] GT=3. Fish | Pred=FISH | conf=0.207
+         nbr: 3. Fish sim=0.9850
+         nbr: 79. Hour sim=0.9513
+         nbr: 87. Doctor sim=0.9461
+  [OK  ] GT=3. Fish | Pred=FISH | conf=0.211
+         nbr: 3. Fish sim=0.9875
+         nbr: 85. slow sim=0.9339
+         nbr: 79. Hour sim=0.9335
+  [OK  ] GT=3. Fish | Pred=FISH | conf=0.215
+         nbr: 3. Fish sim=0.9435
+         nbr: 51. Brown sim=0.8675
+         nbr: 45. we sim=0.8616
+  [OK  ] GT=4. Bird | Pred=BIRD | conf=0.804
+         nbr: 4. Bird sim=0.9897
+         nbr: 4. Bird sim=0.9587
+         nbr: 4. Bird sim=0.9523
+  [OK  ] GT=4. Bird | Pred=BIRD | conf=0.805
+         nbr: 4. Bird sim=0.9900
+         nbr: 4. Bird sim=0.9694
+         nbr: 4. Bird sim=0.9348
+  [OK  ] GT=4. Bird | Pred=BIRD | conf=0.610
+         nbr: 4. Bird sim=0.9864
+         nbr: 4. Bird sim=0.9666
+         nbr: 4. Bird sim=0.9558
+  [OK  ] GT=4. Bird | Pred=BIRD | conf=0.605
+         nbr: 4. Bird sim=0.9885
+         nbr: 4. Bird sim=0.9619
+         nbr: 83. Crowd sim=0.9550
+  [OK  ] GT=5. Cow | Pred=COW | conf=0.606
+         nbr: 5. Cow sim=0.9997
+         nbr: 5. Cow sim=0.9913
+         nbr: 5. Cow sim=0.9785
+  [OK  ] GT=5. Cow | Pred=COW | conf=0.608
+         nbr: 5. Cow sim=0.9848
+         nbr: 5. Cow sim=0.9464
+         nbr: 5. Cow sim=0.9442
+  [OK  ] GT=5. Cow | Pred=COW | conf=0.606
+         nbr: 5. Cow sim=0.9925
+         nbr: 5. Cow sim=0.9898
+         nbr: 5. Cow sim=0.9871
+  [OK  ] GT=5. Cow | Pred=COW | conf=0.608
+         nbr: 5. Cow sim=0.9989
+         nbr: 5. Cow sim=0.9918
+         nbr: 5. Cow sim=0.9892
+  [TOP3] GT=6. Mouse | Pred=DOG | conf=0.400
+         nbr: 6. Mouse sim=0.9689
+         nbr: 1. Dog sim=0.9509
+         nbr: 1. Dog sim=0.9247
+  [OK  ] GT=6. Mouse | Pred=MOUSE | conf=0.602
+         nbr: 6. Mouse sim=0.9936
+         nbr: 6. Mouse sim=0.9828
+         nbr: 40. Skirt sim=0.9799
+  [OK  ] GT=6. Mouse | Pred=MOUSE | conf=0.601
+         nbr: 6. Mouse sim=0.9964
+         nbr: 40. Skirt sim=0.9830
+         nbr: 6. Mouse sim=0.9825
+  [OK  ] GT=6. Mouse | Pred=MOUSE | conf=0.602
+         nbr: 6. Mouse sim=0.9949
+         nbr: 40. Skirt sim=0.9585
+         nbr: 6. Mouse sim=0.9537
+  [OK  ] GT=7. Horse | Pred=HORSE | conf=0.212
+         nbr: 7. Horse sim=0.9625
+         nbr: 8. Animal sim=0.9008
+         nbr: 16. train ticket sim=0.8945
+  [OK  ] GT=7. Horse | Pred=HORSE | conf=0.204
+         nbr: 7. Horse sim=0.9818
+         nbr: 46. you (plural) sim=0.9640
+         nbr: 40. I sim=0.9547
+  [OK  ] GT=7. Horse | Pred=HORSE | conf=0.204
+         nbr: 7. Horse sim=0.9946
+         nbr: 16. train ticket sim=0.9752
+         nbr: 9. Train sim=0.9699
+  [OK  ] GT=7. Horse | Pred=HORSE | conf=0.602
+         nbr: 7. Horse sim=0.9787
+         nbr: 7. Horse sim=0.9753
+         nbr: 16. train ticket sim=0.9651
+  [FAIL] GT=8. Animal | Pred=AUTHOR | conf=0.202
+         nbr: 95. Author sim=0.9439
+         nbr: 14. Bus sim=0.9347
+         nbr: 3. Medicine sim=0.9341
+  [TOP3] GT=8. Animal | Pred=BIRD | conf=0.592
+         nbr: 8. Animal sim=0.9950
+         nbr: 4. Bird sim=0.9363
+         nbr: 4. Bird sim=0.9257
+  [OK  ] GT=8. Animal | Pred=ANIMAL | conf=0.410
+         nbr: 8. Animal sim=0.9964
+         nbr: 8. Animal sim=0.9530
+         nbr: 14. Bus sim=0.9357
+  [OK  ] GT=8. Animal | Pred=ANIMAL | conf=0.410
+         nbr: 8. Animal sim=0.9931
+         nbr: 8. Animal sim=0.9553
+         nbr: 17. Sport sim=0.9405
+  [OK  ] GT=37. Hat | Pred=HAT | conf=0.801
+         nbr: 37. Hat sim=0.9880
+         nbr: 37. Hat sim=0.9864
+         nbr: 37. Hat sim=0.9838
+  [OK  ] GT=37. Hat | Pred=HAT | conf=0.601
+         nbr: 37. Hat sim=0.9896
+         nbr: 37. Hat sim=0.9881
+         nbr: 37. Hat sim=0.9861
+  [OK  ] GT=37. Hat | Pred=HAT | conf=0.403
+         nbr: 37. Hat sim=0.9940
+         nbr: 18. curved sim=0.9772
+         nbr: 37. Hat sim=0.9748
+  [OK  ] GT=37. Hat | Pred=HAT | conf=0.401
+         nbr: 37. Hat sim=0.9821
+         nbr: 18. curved sim=0.9792
+         nbr: 37. Hat sim=0.9788
+  [TOP3] GT=38. Dress | Pred=MOUSE | conf=0.397
+         nbr: 38. Dress sim=0.9764
+         nbr: 41. you sim=0.9601
+         nbr: 40. I sim=0.9588
+  [TOP3] GT=38. Dress | Pred=YOU | conf=0.204
+         nbr: 41. you sim=0.9666
+         nbr: 70. Grandmother sim=0.9482
+         nbr: 38. Dress sim=0.9477
+  [OK  ] GT=38. Dress | Pred=DRESS | conf=0.202
+         nbr: 38. Dress sim=0.9079
+         nbr: 42. T-Shirt sim=0.9015
+         nbr: 88. cold sim=0.8953
+  [FAIL] GT=38. Dress | Pred=YOU (PLURAL) | conf=0.201
+         nbr: 46. you (plural) sim=0.9854
+         nbr: 15. expensive sim=0.9833
+         nbr: 46. Clothing sim=0.9787
+  [OK  ] GT=39. Suit | Pred=SUIT | conf=0.408
+         nbr: 39. Suit sim=0.9342
+         nbr: 39. Suit sim=0.9072
+         nbr: 14. Bus sim=0.8961
+  [OK  ] GT=39. Suit | Pred=SUIT | conf=0.207
+         nbr: 39. Suit sim=0.9225
+         nbr: 41. Shirt sim=0.9122
+         nbr: 31. Kitchen sim=0.8842
+  [OK  ] GT=39. Suit | Pred=SUIT | conf=0.404
+         nbr: 39. Suit sim=0.8971
+         nbr: 15. Boat sim=0.8652
+         nbr: 45. Pocket sim=0.8598
+  [FAIL] GT=39. Suit | Pred=DEAF | conf=0.202
+         nbr: 7. Deaf sim=0.9455
+         nbr: 59. Daughter sim=0.9363
+         nbr: 89. Waiter sim=0.9327
+  [TOP3] GT=40. Skirt | Pred=MOUSE | conf=0.600
+         nbr: 40. Skirt sim=0.9885
+         nbr: 6. Mouse sim=0.9842
+         nbr: 6. Mouse sim=0.9670
+  [OK  ] GT=40. Skirt | Pred=SKIRT | conf=0.602
+         nbr: 40. Skirt sim=0.9802
+         nbr: 40. Skirt sim=0.9736
+         nbr: 6. Mouse sim=0.9678
+  [OK  ] GT=40. Skirt | Pred=SKIRT | conf=0.601
+         nbr: 40. Skirt sim=0.9646
+         nbr: 6. Mouse sim=0.9586
+         nbr: 40. Skirt sim=0.9519
+  [OK  ] GT=40. Skirt | Pred=SKIRT | conf=0.602
+         nbr: 40. Skirt sim=0.9676
+         nbr: 40. Skirt sim=0.9602
+         nbr: 6. Mouse sim=0.9564
+  [OK  ] GT=41. Shirt | Pred=SHIRT | conf=0.599
+         nbr: 41. Shirt sim=0.9032
+         nbr: 56. Laptop sim=0.8849
+         nbr: 50. Tool sim=0.8829
+  [OK  ] GT=41. Shirt | Pred=SHIRT | conf=0.407
+         nbr: 41. Shirt sim=0.9535
+         nbr: 41. Shirt sim=0.9186
+         nbr: 85. slow sim=0.9123
+  [OK  ] GT=41. Shirt | Pred=SHIRT | conf=0.410
+         nbr: 41. Shirt sim=0.9716
+         nbr: 23. Court sim=0.9319
+         nbr: 41. Shirt sim=0.9302
+  [OK  ] GT=41. Shirt | Pred=SHIRT | conf=0.207
+         nbr: 41. Shirt sim=0.9721
+         nbr: 16. cheap sim=0.9330
+         nbr: 13. thick sim=0.9303
+  [OK  ] GT=42. T-Shirt | Pred=T-SHIRT | conf=0.406
+         nbr: 42. T-Shirt sim=0.9506
+         nbr: 42. T-Shirt sim=0.9478
+         nbr: 95. Author sim=0.9326
+  [OK  ] GT=42. T-Shirt | Pred=T-SHIRT | conf=0.607
+         nbr: 42. T-Shirt sim=0.9765
+         nbr: 42. T-Shirt sim=0.9365
+         nbr: 42. T-Shirt sim=0.9250
+  [OK  ] GT=42. T-Shirt | Pred=T-SHIRT | conf=0.209
+         nbr: 42. T-Shirt sim=0.9858
+         nbr: 8. Animal sim=0.9396
+         nbr: 95. Author sim=0.9339
+  [OK  ] GT=42. T-Shirt | Pred=T-SHIRT | conf=0.417
+         nbr: 42. T-Shirt sim=0.9910
+         nbr: 42. T-Shirt sim=0.8905
+         nbr: 45. we sim=0.8792
+  [FAIL] GT=43. Pant | Pred=MOUSE | conf=0.600
+         nbr: 6. Mouse sim=0.9884
+         nbr: 40. Skirt sim=0.9820
+         nbr: 6. Mouse sim=0.9768
+  [FAIL] GT=43. Pant | Pred=FALL | conf=0.400
+         nbr: 37. Hat sim=0.9787
+         nbr: 64. Fall sim=0.9750
+         nbr: 44. it sim=0.9721
+  [FAIL] GT=43. Pant | Pred=MOUSE | conf=0.599
+         nbr: 6. Mouse sim=0.9871
+         nbr: 3. Fish sim=0.9859
+         nbr: 40. Skirt sim=0.9821
+  [OK  ] GT=43. Pant | Pred=PANT | conf=0.400
+         nbr: 3. Fish sim=0.9800
+         nbr: 43. Pant sim=0.9728
+         nbr: 40. Skirt sim=0.9676
+  [OK  ] GT=44. Shoes | Pred=SHOES | conf=0.612
+         nbr: 44. Shoes sim=0.9767
+         nbr: 44. Shoes sim=0.9401
+         nbr: 44. Shoes sim=0.9030
+  [OK  ] GT=44. Shoes | Pred=SHOES | conf=0.410
+         nbr: 44. Shoes sim=0.9480
+         nbr: 44. Shoes sim=0.9223
+         nbr: 14. Election sim=0.8972
+  [OK  ] GT=44. Shoes | Pred=SHOES | conf=0.410
+         nbr: 44. Shoes sim=0.9885
+         nbr: 50. Tool sim=0.9196
+         nbr: 46. Box sim=0.9101
+  [OK  ] GT=44. Shoes | Pred=SHOES | conf=0.611
+         nbr: 44. Shoes sim=0.9561
+         nbr: 44. Shoes sim=0.9169
+         nbr: 44. Shoes sim=0.9061
+  [OK  ] GT=45. Pocket | Pred=POCKET | conf=0.609
+         nbr: 45. Pocket sim=0.9832
+         nbr: 45. Pocket sim=0.9696
+         nbr: 66. Brother sim=0.9374
+  [OK  ] GT=45. Pocket | Pred=POCKET | conf=0.203
+         nbr: 45. Pocket sim=0.9836
+         nbr: 46. Clothing sim=0.9702
+         nbr: 53. Orange sim=0.9692
+  [OK  ] GT=45. Pocket | Pred=POCKET | conf=0.606
+         nbr: 45. Pocket sim=0.9774
+         nbr: 45. Pocket sim=0.9636
+         nbr: 67. Sister sim=0.9404
+  [OK  ] GT=45. Pocket | Pred=POCKET | conf=0.399
+         nbr: 46. Clothing sim=0.9836
+         nbr: 46. you (plural) sim=0.9789
+         nbr: 45. Pocket sim=0.9770
+  [OK  ] GT=46. Clothing | Pred=CLOTHING | conf=0.401
+         nbr: 46. Clothing sim=0.9816
+         nbr: 44. it sim=0.9801
+         nbr: 46. Clothing sim=0.9797
+  [FAIL] GT=46. Clothing | Pred=I | conf=0.398
+         nbr: 38. Dress sim=0.9689
+         nbr: 41. you sim=0.9601
+         nbr: 40. I sim=0.9582
+  [OK  ] GT=46. Clothing | Pred=CLOTHING | conf=0.204
+         nbr: 46. Clothing sim=0.9688
+         nbr: 70. Grandmother sim=0.9525
+         nbr: 52. Pink sim=0.9426
+  [OK  ] GT=46. Clothing | Pred=CLOTHING | conf=0.402
+         nbr: 46. Clothing sim=0.9867
+         nbr: 46. Clothing sim=0.9830
+         nbr: 44. it sim=0.9772
+  [OK  ] GT=47. Red | Pred=RED | conf=0.401
+         nbr: 47. Red sim=0.9736
+         nbr: 41. you sim=0.9629
+         nbr: 40. I sim=0.9621
+  [OK  ] GT=47. Red | Pred=RED | conf=0.403
+         nbr: 47. Red sim=0.9705
+         nbr: 47. Red sim=0.9701
+         nbr: 19. male sim=0.9672
+  [OK  ] GT=47. Red | Pred=RED | conf=0.201
+         nbr: 47. Red sim=0.9664
+         nbr: 90. cool sim=0.9649
+         nbr: 54. Cell phone sim=0.9633
+  [OK  ] GT=47. Red | Pred=RED | conf=0.401
+         nbr: 47. Red sim=0.9692
+         nbr: 41. you sim=0.9667
+         nbr: 47. Red sim=0.9658
+  [OK  ] GT=48. Green | Pred=GREEN | conf=0.798
+         nbr: 19. Ball sim=0.9874
+         nbr: 48. Green sim=0.9805
+         nbr: 48. Green sim=0.9775
+  [OK  ] GT=48. Green | Pred=GREEN | conf=0.600
+         nbr: 19. Ball sim=0.9858
+         nbr: 48. Green sim=0.9828
+         nbr: 48. Green sim=0.9821
+  [OK  ] GT=48. Green | Pred=GREEN | conf=0.603
+         nbr: 48. Green sim=0.9937
+         nbr: 48. Green sim=0.9706
+         nbr: 19. Ball sim=0.9671
+  [OK  ] GT=48. Green | Pred=GREEN | conf=0.800
+         nbr: 48. Green sim=0.9950
+         nbr: 19. Ball sim=0.9848
+         nbr: 48. Green sim=0.9844
+  [TOP3] GT=49. Blue | Pred=GREEN | conf=0.400
+         nbr: 19. Ball sim=0.9855
+         nbr: 48. Green sim=0.9832
+         nbr: 49. Blue sim=0.9817
+  [OK  ] GT=49. Blue | Pred=BLUE | conf=0.404
+         nbr: 49. Blue sim=0.9914
+         nbr: 49. Blue sim=0.9908
+         nbr: 94. good sim=0.9793
+  [TOP3] GT=49. Blue | Pred=GOOD MORNING | conf=0.399
+         nbr: 49. Blue sim=0.9819
+         nbr: 53. Orange sim=0.9789
+         nbr: 48. Hello sim=0.9754
+  [OK  ] GT=49. Blue | Pred=BLUE | conf=0.405
+         nbr: 49. Blue sim=0.9930
+         nbr: 49. Blue sim=0.9877
+         nbr: 94. good sim=0.9732
+  [OK  ] GT=50. Yellow | Pred=YELLOW | conf=0.202
+         nbr: 50. Yellow sim=0.9715
+         nbr: 78. Girl sim=0.9631
+         nbr: 70. Grandmother sim=0.9597
+  [TOP3] GT=50. Yellow | Pred=CLOTHING | conf=0.202
+         nbr: 46. Clothing sim=0.9615
+         nbr: 70. Grandmother sim=0.9610
+         nbr: 50. Yellow sim=0.9558
+  [FAIL] GT=50. Yellow | Pred=I | conf=0.402
+         nbr: 40. I sim=0.9751
+         nbr: 38. Dress sim=0.9651
+         nbr: 40. I sim=0.9576
+  [FAIL] GT=50. Yellow | Pred=PINK | conf=0.402
+         nbr: 52. Pink sim=0.9697
+         nbr: 52. Pink sim=0.9601
+         nbr: 57. Colour sim=0.9585
+  [FAIL] GT=51. Brown | Pred=DOCTOR | conf=0.201
+         nbr: 87. Doctor sim=0.9540
+         nbr: 79. Hour sim=0.9505
+         nbr: 85. slow sim=0.9481
+  [TOP3] GT=51. Brown | Pred=SHOES | conf=0.602
+         nbr: 44. Shoes sim=0.9116
+         nbr: 51. Brown sim=0.9086
+         nbr: 44. Shoes sim=0.9042
+  [OK  ] GT=51. Brown | Pred=BROWN | conf=0.218
+         nbr: 51. Brown sim=0.9907
+         nbr: 3. Fish sim=0.8919
+         nbr: 86. Time sim=0.8890
+  [FAIL] GT=51. Brown | Pred=WEAK | conf=0.399
+         nbr: 3. Fish sim=0.9577
+         nbr: 32. weak sim=0.9448
+         nbr: 85. slow sim=0.9405
+  [OK  ] GT=52. Pink | Pred=PINK | conf=0.202
+         nbr: 52. Pink sim=0.9812
+         nbr: 41. you sim=0.9759
+         nbr: 38. Dress sim=0.9704
+  [TOP3] GT=52. Pink | Pred=COLOUR | conf=0.201
+         nbr: 57. Colour sim=0.9833
+         nbr: 52. Pink sim=0.9808
+         nbr: 33. dead sim=0.9755
+  [OK  ] GT=52. Pink | Pred=PINK | conf=0.601
+         nbr: 52. Pink sim=0.9808
+         nbr: 57. Colour sim=0.9731
+         nbr: 52. Pink sim=0.9678
+  [OK  ] GT=52. Pink | Pred=PINK | conf=0.601
+         nbr: 52. Pink sim=0.9729
+         nbr: 57. Colour sim=0.9717
+         nbr: 52. Pink sim=0.9675
+  [OK  ] GT=53. Orange | Pred=ORANGE | conf=0.600
+         nbr: 53. Orange sim=0.9852
+         nbr: 53. Orange sim=0.9843
+         nbr: 53. Orange sim=0.9839
+  [TOP3] GT=53. Orange | Pred=GREEN | conf=0.601
+         nbr: 48. Green sim=0.9851
+         nbr: 48. Green sim=0.9806
+         nbr: 53. Orange sim=0.9789
+  [OK  ] GT=53. Orange | Pred=ORANGE | conf=0.602
+         nbr: 53. Orange sim=0.9986
+         nbr: 49. Blue sim=0.9800
+         nbr: 53. Orange sim=0.9779
+  [OK  ] GT=53. Orange | Pred=ORANGE | conf=0.601
+         nbr: 53. Orange sim=0.9859
+         nbr: 53. Orange sim=0.9850
+         nbr: 9. Train sim=0.9824
+  [FAIL] GT=54. Black | Pred=MALE | conf=0.200
+         nbr: 19. male sim=0.9799
+         nbr: 54. Cell phone sim=0.9793
+         nbr: 13. thick sim=0.9782
+  [FAIL] GT=54. Black | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9815
+         nbr: 81. Second sim=0.9746
+         nbr: 46. you (plural) sim=0.9728
+  [TOP3] GT=54. Black | Pred=CELL PHONE | conf=0.400
+         nbr: 54. Black sim=0.9859
+         nbr: 54. Cell phone sim=0.9808
+         nbr: 19. male sim=0.9790
+  [FAIL] GT=54. Black | Pred=FAN | conf=0.400
+         nbr: 53. Fan sim=0.9722
+         nbr: 99. Job sim=0.9721
+         nbr: 91. Priest sim=0.9711
+  [FAIL] GT=55. White | Pred=YOU | conf=0.400
+         nbr: 70. Grandmother sim=0.9533
+         nbr: 41. you sim=0.9450
+         nbr: 41. you sim=0.9411
+  [FAIL] GT=55. White | Pred=ALIVE | conf=0.201
+         nbr: 34. alive sim=0.9698
+         nbr: 70. Grandmother sim=0.9679
+         nbr: 57. Colour sim=0.9671
+  [FAIL] GT=55. White | Pred=YOU (PLURAL) | conf=0.201
+         nbr: 46. you (plural) sim=0.9781
+         nbr: 9. Train sim=0.9764
+         nbr: 40. I sim=0.9757
+  [TOP3] GT=55. White | Pred=PINK | conf=0.201
+         nbr: 52. Pink sim=0.9696
+         nbr: 41. you sim=0.9685
+         nbr: 55. White sim=0.9648
+  [TOP3] GT=56. Grey | Pred=ORANGE | conf=0.599
+         nbr: 56. Grey sim=0.9813
+         nbr: 56. Grey sim=0.9776
+         nbr: 53. Orange sim=0.9767
+  [OK  ] GT=56. Grey | Pred=GREY | conf=0.601
+         nbr: 56. Grey sim=0.9825
+         nbr: 56. Grey sim=0.9803
+         nbr: 56. Grey sim=0.9759
+  [TOP3] GT=56. Grey | Pred=ORANGE | conf=0.799
+         nbr: 56. Grey sim=0.9938
+         nbr: 53. Orange sim=0.9860
+         nbr: 53. Orange sim=0.9859
+  [OK  ] GT=56. Grey | Pred=GREY | conf=0.601
+         nbr: 56. Grey sim=0.9759
+         nbr: 56. Grey sim=0.9756
+         nbr: 56. Grey sim=0.9745
+  [OK  ] GT=57. Colour | Pred=COLOUR | conf=0.401
+         nbr: 57. Colour sim=0.9756
+         nbr: 33. dead sim=0.9740
+         nbr: 57. Colour sim=0.9733
+  [TOP3] GT=57. Colour | Pred=YOU | conf=0.202
+         nbr: 41. you sim=0.9658
+         nbr: 57. Colour sim=0.9623
+         nbr: 38. Dress sim=0.9608
+  [OK  ] GT=57. Colour | Pred=COLOUR | conf=0.400
+         nbr: 57. Colour sim=0.9738
+         nbr: 33. dead sim=0.9711
+         nbr: 38. Dress sim=0.9701
+  [FAIL] GT=57. Colour | Pred=WHITE | conf=0.201
+         nbr: 55. White sim=0.9827
+         nbr: 46. you (plural) sim=0.9826
+         nbr: 40. I sim=0.9781
+  [FAIL] GT=66. Sunday | Pred=MOTHER | conf=0.400
+         nbr: 46. Clothing sim=0.9597
+         nbr: 80. Adult sim=0.9569
+         nbr: 60. Mother sim=0.9565
+  [OK  ] GT=67. Monday | Pred=MONDAY | conf=0.204
+         nbr: 67. Monday sim=0.9738
+         nbr: 16. train ticket sim=0.9670
+         nbr: 48. Green sim=0.9474
+  [TOP3] GT=68. Tuesday | Pred=BEDROOM | conf=0.398
+         nbr: 68. Tuesday sim=0.9636
+         nbr: 30. Bedroom sim=0.9351
+         nbr: 97. dry sim=0.9277
+  [FAIL] GT=69. Wednesday | Pred=WET | conf=0.398
+         nbr: 16. train ticket sim=0.9768
+         nbr: 67. Monday sim=0.9654
+         nbr: 96. wet sim=0.9607
+  [TOP3] GT=70. Thursday | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9499
+         nbr: 70. Thursday sim=0.9395
+         nbr: 78. Girl sim=0.9378
+  [FAIL] GT=71. Friday | Pred=THICK | conf=0.201
+         nbr: 13. thick sim=0.9809
+         nbr: 57. Colour sim=0.9777
+         nbr: 38. Dress sim=0.9713
+  [TOP3] GT=72. Saturday | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9729
+         nbr: 72. Saturday sim=0.9669
+         nbr: 81. Second sim=0.9584
+  [TOP3] GT=73. Today | Pred=CLOTHING | conf=0.400
+         nbr: 15. expensive sim=0.9833
+         nbr: 46. Clothing sim=0.9787
+         nbr: 73. Today sim=0.9783
+  [FAIL] GT=74. Tomorrow | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9632
+         nbr: 90. cool sim=0.9564
+         nbr: 44. it sim=0.9555
+  [FAIL] GT=75. Yesterday | Pred=BAD | conf=0.200
+         nbr: 95. bad sim=0.9740
+         nbr: 86. fast sim=0.9737
+         nbr: 13. thick sim=0.9734
+  [FAIL] GT=76. Week | Pred=TRUCK | conf=0.405
+         nbr: 12. Truck sim=0.9533
+         nbr: 27. Park sim=0.9277
+         nbr: 12. Truck sim=0.9186
+  [FAIL] GT=77. Month | Pred=BEDROOM | conf=0.202
+         nbr: 30. Bedroom sim=0.9397
+         nbr: 93. Soldier sim=0.9336
+         nbr: 32. Bathroom sim=0.9265
+  [FAIL] GT=78. Year | Pred=T-SHIRT | conf=0.201
+         nbr: 42. T-Shirt sim=0.9382
+         nbr: 32. Bathroom sim=0.9373
+         nbr: 95. Author sim=0.9342
+  [OK  ] GT=79. Hour | Pred=HOUR | conf=0.206
+         nbr: 79. Hour sim=0.9887
+         nbr: 87. Doctor sim=0.9572
+         nbr: 51. Clock sim=0.9530
+  [FAIL] GT=80. Minute | Pred=FAST | conf=0.203
+         nbr: 86. fast sim=0.9563
+         nbr: 41. you sim=0.9422
+         nbr: 70. Grandmother sim=0.9367
+  [TOP3] GT=81. Second | Pred=QUIET | conf=0.396
+         nbr: 81. Second sim=0.9761
+         nbr: 2. quiet sim=0.9369
+         nbr: 70. Grandmother sim=0.9362
+  [OK  ] GT=81. Second | Pred=SECOND | conf=0.202
+         nbr: 81. Second sim=0.9796
+         nbr: 40. I sim=0.9759
+         nbr: 38. Dress sim=0.9743
+  [TOP3] GT=82. Morning | Pred=ORANGE | conf=0.599
+         nbr: 9. Train sim=0.9868
+         nbr: 82. Morning sim=0.9854
+         nbr: 53. Orange sim=0.9835
+  [FAIL] GT=83. Afternoon | Pred=ORANGE | conf=0.201
+         nbr: 53. Orange sim=0.9673
+         nbr: 44. it sim=0.9638
+         nbr: 37. Hat sim=0.9617
+  [FAIL] GT=84. Evening | Pred=YOU | conf=0.202
+         nbr: 41. you sim=0.9616
+         nbr: 46. you (plural) sim=0.9555
+         nbr: 38. Dress sim=0.9515
+  [FAIL] GT=85. Night | Pred=ORANGE | conf=0.399
+         nbr: 9. Train sim=0.9879
+         nbr: 82. Morning sim=0.9846
+         nbr: 48. Hello sim=0.9825
+  [TOP3] GT=86. Time | Pred=SLOW | conf=0.392
+         nbr: 3. Fish sim=0.9508
+         nbr: 86. Time sim=0.9376
+         nbr: 85. slow sim=0.9023
+  [OK  ] GT=51. Clock | Pred=CLOCK | conf=0.404
+         nbr: 51. Clock sim=0.9875
+         nbr: 74. Queen sim=0.9549
+         nbr: 51. Clock sim=0.9527
+  [OK  ] GT=51. Clock | Pred=CLOCK | conf=0.607
+         nbr: 51. Clock sim=0.9756
+         nbr: 51. Clock sim=0.9692
+         nbr: 51. Clock sim=0.9591
+  [OK  ] GT=51. Clock | Pred=CLOCK | conf=0.605
+         nbr: 51. Clock sim=0.9851
+         nbr: 51. Clock sim=0.9727
+         nbr: 79. Hour sim=0.9591
+  [FAIL] GT=52. Lamp | Pred=ARTIST | conf=0.399
+         nbr: 89. warm sim=0.9690
+         nbr: 53. Orange sim=0.9664
+         nbr: 94. Artist sim=0.9657
+  [OK  ] GT=52. Lamp | Pred=LAMP | conf=0.402
+         nbr: 52. Lamp sim=0.9729
+         nbr: 52. Lamp sim=0.9628
+         nbr: 47. they sim=0.9624
+  [TOP3] GT=52. Lamp | Pred=SUMMER | conf=0.399
+         nbr: 52. Lamp sim=0.9718
+         nbr: 61. Summer sim=0.9567
+         nbr: 47. they sim=0.9400
+  [OK  ] GT=53. Fan | Pred=FAN | conf=0.404
+         nbr: 53. Fan sim=0.9924
+         nbr: 53. Fan sim=0.9889
+         nbr: 91. Priest sim=0.9804
+  [OK  ] GT=53. Fan | Pred=FAN | conf=0.405
+         nbr: 53. Fan sim=0.9909
+         nbr: 53. Fan sim=0.9904
+         nbr: 91. Priest sim=0.9763
+  [TOP3] GT=53. Fan | Pred=COW | conf=0.399
+         nbr: 53. Fan sim=0.9887
+         nbr: 5. Cow sim=0.9726
+         nbr: 5. Cow sim=0.9701
+  [FAIL] GT=54. Cell phone | Pred=TRAIN | conf=0.201
+         nbr: 9. Train sim=0.9829
+         nbr: 19. male sim=0.9807
+         nbr: 48. Hello sim=0.9797
+  [FAIL] GT=54. Cell phone | Pred=BEAUTIFUL | conf=0.201
+         nbr: 5. Beautiful sim=0.9664
+         nbr: 78. Girl sim=0.9662
+         nbr: 40. I sim=0.9639
+  [TOP3] GT=54. Cell phone | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9845
+         nbr: 54. Cell phone sim=0.9830
+         nbr: 53. Orange sim=0.9695
+  [OK  ] GT=55. Computer | Pred=COMPUTER | conf=0.409
+         nbr: 55. Computer sim=0.9757
+         nbr: 55. Computer sim=0.9259
+         nbr: 14. Bus sim=0.9192
+  [OK  ] GT=55. Computer | Pred=COMPUTER | conf=0.401
+         nbr: 55. Computer sim=0.9624
+         nbr: 55. Computer sim=0.9613
+         nbr: 16. train ticket sim=0.9598
+  [OK  ] GT=55. Computer | Pred=COMPUTER | conf=0.403
+         nbr: 55. Computer sim=0.9856
+         nbr: 16. train ticket sim=0.9627
+         nbr: 55. Computer sim=0.9595
+  [OK  ] GT=56. Laptop | Pred=LAPTOP | conf=0.204
+         nbr: 56. Laptop sim=0.9631
+         nbr: 16. train ticket sim=0.9462
+         nbr: 30. Hospital sim=0.9425
+  [OK  ] GT=56. Laptop | Pred=LAPTOP | conf=0.607
+         nbr: 56. Laptop sim=0.9339
+         nbr: 56. Laptop sim=0.8852
+         nbr: 30. Bedroom sim=0.8715
+  [OK  ] GT=56. Laptop | Pred=LAPTOP | conf=0.610
+         nbr: 56. Laptop sim=0.9252
+         nbr: 56. Laptop sim=0.9163
+         nbr: 30. Bedroom sim=0.8693
+  [FAIL] GT=57. Screen | Pred=SEASON | conf=0.202
+         nbr: 65. Season sim=0.9352
+         nbr: 80. Adult sim=0.9309
+         nbr: 48. Card sim=0.9295
+  [FAIL] GT=57. Screen | Pred=PINK | conf=0.399
+         nbr: 65. Season sim=0.9370
+         nbr: 52. Pink sim=0.9312
+         nbr: 11. Car sim=0.9262
+  [FAIL] GT=57. Screen | Pred=TEMPLE | conf=0.203
+         nbr: 31. Temple sim=0.9563
+         nbr: 1. Religion sim=0.9449
+         nbr: 40. Paint sim=0.9366
+  [TOP3] GT=58. Camera | Pred=COW | conf=0.600
+         nbr: 5. Cow sim=0.9618
+         nbr: 2. Cat sim=0.9598
+         nbr: 58. Camera sim=0.9584
+  [OK  ] GT=58. Camera | Pred=CAMERA | conf=0.399
+         nbr: 2. Cat sim=0.9643
+         nbr: 58. Camera sim=0.9531
+         nbr: 34. Ground sim=0.9527
+  [FAIL] GT=58. Camera | Pred=CAT | conf=0.202
+         nbr: 2. Cat sim=0.9723
+         nbr: 54. Black sim=0.9625
+         nbr: 54. Cell phone sim=0.9617
+  [FAIL] GT=59. Television | Pred=ANIMAL | conf=0.398
+         nbr: 12. poor sim=0.9258
+         nbr: 8. Animal sim=0.9256
+         nbr: 42. T-Shirt sim=0.9252
+  [FAIL] GT=59. Television | Pred=LAWYER | conf=0.202
+         nbr: 86. Lawyer sim=0.9529
+         nbr: 32. Bathroom sim=0.9469
+         nbr: 90. Secretary sim=0.9394
+  [TOP3] GT=59. Television | Pred=T-SHIRT | conf=0.402
+         nbr: 42. T-Shirt sim=0.9440
+         nbr: 75. President sim=0.9177
+         nbr: 59. Television sim=0.9176
+  [FAIL] GT=60. Radio | Pred=LIBRARY | conf=0.201
+         nbr: 29. Library sim=0.9496
+         nbr: 95. bad sim=0.9474
+         nbr: 2. Death sim=0.9448
+  [FAIL] GT=60. Radio | Pred=SKIRT | conf=0.799
+         nbr: 40. Skirt sim=0.9428
+         nbr: 20. Street or Road sim=0.9407
+         nbr: 40. Skirt sim=0.9332
+  [TOP3] GT=60. Radio | Pred=BIRD | conf=0.397
+         nbr: 60. Radio sim=0.8824
+         nbr: 4. Bird sim=0.8489
+         nbr: 8. Animal sim=0.8457
+  [OK  ] GT=48. Hello | Pred=HELLO | conf=0.400
+         nbr: 53. Orange sim=0.9728
+         nbr: 44. it sim=0.9716
+         nbr: 48. Hello sim=0.9715
+  [TOP3] GT=48. Hello | Pred=ORANGE | conf=0.400
+         nbr: 9. Train sim=0.9894
+         nbr: 53. Orange sim=0.9846
+         nbr: 48. Hello sim=0.9759
+  [OK  ] GT=48. Hello | Pred=HELLO | conf=0.202
+         nbr: 48. Hello sim=0.9783
+         nbr: 40. I sim=0.9735
+         nbr: 43. she sim=0.9642
+  [FAIL] GT=48. Hello | Pred=GREEN | conf=0.798
+         nbr: 19. Ball sim=0.9780
+         nbr: 48. Green sim=0.9746
+         nbr: 48. Green sim=0.9665
+  [OK  ] GT=49. How are you | Pred=HOW ARE YOU | conf=0.604
+         nbr: 49. How are you sim=0.9755
+         nbr: 49. How are you sim=0.9591
+         nbr: 29. Library sim=0.9499
+  [OK  ] GT=49. How are you | Pred=HOW ARE YOU | conf=0.405
+         nbr: 49. How are you sim=0.9748
+         nbr: 95. Author sim=0.9436
+         nbr: 29. Library sim=0.9370
+  [OK  ] GT=49. How are you | Pred=HOW ARE YOU | conf=0.601
+         nbr: 49. How are you sim=0.9512
+         nbr: 49. How are you sim=0.9506
+         nbr: 96. wet sim=0.9479
+  [FAIL] GT=49. How are you | Pred=GOOD NIGHT | conf=0.400
+         nbr: 29. Library sim=0.9629
+         nbr: 54. Good night sim=0.9607
+         nbr: 54. Good night sim=0.9607
+  [TOP3] GT=50. Alright | Pred=T-SHIRT | conf=0.408
+         nbr: 42. T-Shirt sim=0.9224
+         nbr: 50. Alright sim=0.8929
+         nbr: 42. T-Shirt sim=0.8706
+  [FAIL] GT=50. Alright | Pred=BAD | conf=0.400
+         nbr: 95. bad sim=0.9660
+         nbr: 55. White sim=0.9648
+         nbr: 33. dead sim=0.9608
+  [OK  ] GT=50. Alright | Pred=ALRIGHT | conf=0.410
+         nbr: 50. Alright sim=0.9500
+         nbr: 50. Alright sim=0.9223
+         nbr: 49. Ring sim=0.9029
+  [OK  ] GT=50. Alright | Pred=ALRIGHT | conf=0.403
+         nbr: 50. Alright sim=0.9287
+         nbr: 50. Alright sim=0.9244
+         nbr: 49. Ring sim=0.9179
+  [OK  ] GT=51. Good Morning | Pred=GOOD MORNING | conf=0.400
+         nbr: 9. Nice sim=0.9768
+         nbr: 51. Good Morning sim=0.9759
+         nbr: 44. it sim=0.9736
+  [OK  ] GT=51. Good Morning | Pred=GOOD MORNING | conf=0.402
+         nbr: 51. Good Morning sim=0.9865
+         nbr: 48. Hello sim=0.9714
+         nbr: 51. Good Morning sim=0.9703
+  [FAIL] GT=51. Good Morning | Pred=BALL | conf=0.401
+         nbr: 19. Ball sim=0.9807
+         nbr: 49. Blue sim=0.9750
+         nbr: 94. good sim=0.9718
+  [TOP3] GT=51. Good Morning | Pred=GREEN | conf=0.400
+         nbr: 19. Ball sim=0.9842
+         nbr: 48. Green sim=0.9808
+         nbr: 48. Green sim=0.9802
+  [OK  ] GT=52. Good afternoon | Pred=GOOD AFTERNOON | conf=0.404
+         nbr: 52. Good afternoon sim=0.9886
+         nbr: 52. Good afternoon sim=0.9839
+         nbr: 16. cheap sim=0.9742
+  [FAIL] GT=52. Good afternoon | Pred=GOOD MORNING | conf=0.201
+         nbr: 51. Good Morning sim=0.9683
+         nbr: 16. cheap sim=0.9650
+         nbr: 53. Orange sim=0.9612
+  [OK  ] GT=52. Good afternoon | Pred=GOOD AFTERNOON | conf=0.802
+         nbr: 52. Good afternoon sim=0.9924
+         nbr: 52. Good afternoon sim=0.9889
+         nbr: 48. Hello sim=0.9687
+  [FAIL] GT=52. Good afternoon | Pred=BLUE | conf=0.403
+         nbr: 49. Blue sim=0.9813
+         nbr: 49. Blue sim=0.9762
+         nbr: 48. Green sim=0.9673
+  [FAIL] GT=52. Good afternoon | Pred=BLUE | conf=0.401
+         nbr: 49. Blue sim=0.9752
+         nbr: 48. Green sim=0.9752
+         nbr: 49. Blue sim=0.9733
+  [TOP3] GT=52. Good afternoon | Pred=BLUE | conf=0.401
+         nbr: 51. Good Morning sim=0.9561
+         nbr: 49. Blue sim=0.9555
+         nbr: 49. Blue sim=0.9479
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=0.802
+         nbr: 53. Good evening sim=0.9695
+         nbr: 53. Good evening sim=0.9687
+         nbr: 53. Good evening sim=0.9662
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=0.602
+         nbr: 53. Good evening sim=0.9832
+         nbr: 53. Good evening sim=0.9783
+         nbr: 48. Hello sim=0.9687
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=0.403
+         nbr: 53. Good evening sim=0.9852
+         nbr: 53. Good evening sim=0.9830
+         nbr: 52. Good afternoon sim=0.9726
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=0.400
+         nbr: 54. Good night sim=0.9747
+         nbr: 53. Good evening sim=0.9734
+         nbr: 86. fast sim=0.9676
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=0.401
+         nbr: 53. Good evening sim=0.9753
+         nbr: 53. Good evening sim=0.9732
+         nbr: 52. Good afternoon sim=0.9718
+  [OK  ] GT=53. Good evening | Pred=GOOD EVENING | conf=1.000
+         nbr: 53. Good evening sim=0.9874
+         nbr: 53. Good evening sim=0.9788
+         nbr: 53. Good evening sim=0.9787
+  [FAIL] GT=53. Good evening | Pred=ALIVE | conf=0.200
+         nbr: 34. alive sim=0.9717
+         nbr: 19. Ball sim=0.9717
+         nbr: 86. fast sim=0.9708
+  [FAIL] GT=54. Good night | Pred=FAST | conf=0.202
+         nbr: 86. fast sim=0.9845
+         nbr: 94. good sim=0.9742
+         nbr: 9. Nice sim=0.9716
+  [OK  ] GT=54. Good night | Pred=GOOD NIGHT | conf=0.201
+         nbr: 54. Good night sim=0.9871
+         nbr: 19. Ball sim=0.9797
+         nbr: 86. fast sim=0.9793
+  [TOP3] GT=54. Good night | Pred=GOOD AFTERNOON | conf=0.400
+         nbr: 52. Good afternoon sim=0.9645
+         nbr: 51. Good Morning sim=0.9639
+         nbr: 54. Good night sim=0.9623
+  [FAIL] GT=54. Good night | Pred=GOOD MORNING | conf=0.399
+         nbr: 86. fast sim=0.9779
+         nbr: 29. Library sim=0.9680
+         nbr: 94. good sim=0.9674
+  [FAIL] GT=55. Thank you | Pred=GREEN | conf=0.201
+         nbr: 48. Green sim=0.9629
+         nbr: 36. light sim=0.9559
+         nbr: 19. Ball sim=0.9554
+  [TOP3] GT=55. Thank you | Pred=HELLO | conf=0.399
+         nbr: 55. Thank you sim=0.9852
+         nbr: 48. Hello sim=0.9721
+         nbr: 9. Train sim=0.9696
+  [FAIL] GT=55. Thank you | Pred=LIBRARY | conf=0.201
+         nbr: 29. Library sim=0.9455
+         nbr: 84. small little sim=0.9392
+         nbr: 36. light sim=0.9391
+  [FAIL] GT=55. Thank you | Pred=LIGHT | conf=0.201
+         nbr: 36. light sim=0.9455
+         nbr: 29. Library sim=0.9449
+         nbr: 84. small little sim=0.9413
+  [OK  ] GT=56. Pleased | Pred=PLEASED | conf=0.202
+         nbr: 56. Pleased sim=0.9692
+         nbr: 4. sad sim=0.9620
+         nbr: 19. Ball sim=0.9532
+  [FAIL] GT=56. Pleased | Pred=TRAIN | conf=0.202
+         nbr: 9. Train sim=0.9854
+         nbr: 40. I sim=0.9789
+         nbr: 46. you (plural) sim=0.9756
+  [FAIL] GT=56. Pleased | Pred=I | conf=0.400
+         nbr: 40. I sim=0.9668
+         nbr: 46. you (plural) sim=0.9619
+         nbr: 4. sad sim=0.9598
+  [OK  ] GT=56. Pleased | Pred=PLEASED | conf=0.603
+         nbr: 56. Pleased sim=0.9571
+         nbr: 56. Pleased sim=0.9526
+         nbr: 4. sad sim=0.9374
+  [FAIL] GT=24. Table | Pred=DOG | conf=0.204
+         nbr: 1. Dog sim=0.9331
+         nbr: 47. Gift sim=0.9151
+         nbr: 36. Soap sim=0.9138
+  [FAIL] GT=24. Table | Pred=TOOL | conf=0.201
+         nbr: 50. Tool sim=0.9113
+         nbr: 4. Bird sim=0.9056
+         nbr: 20. Street or Road sim=0.9027
+  [FAIL] GT=24. Table | Pred=BIRD | conf=0.203
+         nbr: 4. Bird sim=0.9198
+         nbr: 8. Animal sim=0.9129
+         nbr: 50. Tool sim=0.9126
+  [FAIL] GT=25. Chair | Pred=WINTER | conf=0.406
+         nbr: 63. Winter sim=0.9495
+         nbr: 63. Winter sim=0.9295
+         nbr: 11. Car sim=0.9217
+  [FAIL] GT=25. Chair | Pred=ALRIGHT | conf=0.406
+         nbr: 50. Alright sim=0.9457
+         nbr: 50. Alright sim=0.9193
+         nbr: 88. cold sim=0.9103
+  [FAIL] GT=25. Chair | Pred=WINTER | conf=0.202
+         nbr: 63. Winter sim=0.9085
+         nbr: 42. T-Shirt sim=0.9035
+         nbr: 48. Card sim=0.8982
+  [OK  ] GT=26. Bed | Pred=BED | conf=0.406
+         nbr: 26. Bed sim=0.9742
+         nbr: 26. Bed sim=0.9503
+         nbr: 48. Green sim=0.9411
+  [TOP3] GT=26. Bed | Pred=GOOD AFTERNOON | conf=0.398
+         nbr: 48. Green sim=0.9509
+         nbr: 26. Bed sim=0.9484
+         nbr: 74. Queen sim=0.9413
+  [OK  ] GT=26. Bed | Pred=BED | conf=0.602
+         nbr: 26. Bed sim=0.9585
+         nbr: 26. Bed sim=0.9521
+         nbr: 26. Bed sim=0.9498
+  [OK  ] GT=27. Dream | Pred=DREAM | conf=0.410
+         nbr: 27. Dream sim=0.9861
+         nbr: 27. Dream sim=0.9691
+         nbr: 65. Season sim=0.9409
+  [OK  ] GT=27. Dream | Pred=DREAM | conf=0.407
+         nbr: 27. Dream sim=0.9903
+         nbr: 27. Dream sim=0.9599
+         nbr: 97. Reporter sim=0.9500
+  [OK  ] GT=27. Dream | Pred=DREAM | conf=0.407
+         nbr: 27. Dream sim=0.9669
+         nbr: 92. old sim=0.9145
+         nbr: 54. Cell phone sim=0.9081
+  [OK  ] GT=28. Window | Pred=WINDOW | conf=0.407
+         nbr: 28. Window sim=0.9805
+         nbr: 28. Window sim=0.9727
+         nbr: 65. Season sim=0.9724
+  [OK  ] GT=28. Window | Pred=WINDOW | conf=0.404
+         nbr: 28. Window sim=0.9805
+         nbr: 65. Season sim=0.9662
+         nbr: 28. Window sim=0.9511
+  [TOP3] GT=28. Window | Pred=AUTHOR | conf=0.398
+         nbr: 28. Window sim=0.9651
+         nbr: 65. Season sim=0.9446
+         nbr: 95. Author sim=0.9374
+  [FAIL] GT=29. Door | Pred=DRESS | conf=0.202
+         nbr: 38. Dress sim=0.9542
+         nbr: 21. Sign sim=0.9477
+         nbr: 90. cool sim=0.9474
+  [FAIL] GT=29. Door | Pred=COOL | conf=0.201
+         nbr: 90. cool sim=0.9379
+         nbr: 46. Clothing sim=0.9363
+         nbr: 40. I sim=0.9312
+  [TOP3] GT=29. Door | Pred=BOAT | conf=0.394
+         nbr: 29. Door sim=0.9795
+         nbr: 15. Boat sim=0.9094
+         nbr: 39. Key sim=0.9004
+  [OK  ] GT=30. Bedroom | Pred=BEDROOM | conf=0.606
+         nbr: 30. Bedroom sim=0.9943
+         nbr: 30. Bedroom sim=0.9490
+         nbr: 30. Bedroom sim=0.9394
+  [OK  ] GT=30. Bedroom | Pred=BEDROOM | conf=0.613
+         nbr: 30. Bedroom sim=0.9925
+         nbr: 30. Bedroom sim=0.9433
+         nbr: 30. Bedroom sim=0.9324
+  [OK  ] GT=30. Bedroom | Pred=BEDROOM | conf=0.606
+         nbr: 30. Bedroom sim=0.9917
+         nbr: 29. Library sim=0.9386
+         nbr: 30. Bedroom sim=0.9317
+  [OK  ] GT=31. Kitchen | Pred=KITCHEN | conf=0.412
+         nbr: 31. Kitchen sim=0.9587
+         nbr: 31. Kitchen sim=0.9209
+         nbr: 98. Actor sim=0.8987
+  [OK  ] GT=31. Kitchen | Pred=KITCHEN | conf=0.208
+         nbr: 31. Kitchen sim=0.9685
+         nbr: 42. T-Shirt sim=0.9253
+         nbr: 32. Bathroom sim=0.9229
+  [TOP3] GT=31. Kitchen | Pred=BATHROOM | conf=0.597
+         nbr: 31. Kitchen sim=0.9684
+         nbr: 32. Bathroom sim=0.9384
+         nbr: 32. Bathroom sim=0.9288
+  [OK  ] GT=32. Bathroom | Pred=BATHROOM | conf=0.601
+         nbr: 32. Bathroom sim=0.9640
+         nbr: 31. Kitchen sim=0.9577
+         nbr: 32. Bathroom sim=0.9538
+  [OK  ] GT=32. Bathroom | Pred=BATHROOM | conf=0.206
+         nbr: 32. Bathroom sim=0.9721
+         nbr: 70. Grandmother sim=0.9436
+         nbr: 31. Kitchen sim=0.9391
+  [OK  ] GT=32. Bathroom | Pred=BATHROOM | conf=0.598
+         nbr: 31. Kitchen sim=0.9500
+         nbr: 32. Bathroom sim=0.9420
+         nbr: 32. Bathroom sim=0.9378
+  [FAIL] GT=33. Pencil | Pred=FAST | conf=0.203
+         nbr: 86. fast sim=0.9513
+         nbr: 21. Sign sim=0.9379
+         nbr: 41. you sim=0.9362
+  [TOP3] GT=33. Pencil | Pred=SAD | conf=0.203
+         nbr: 4. sad sim=0.9633
+         nbr: 33. Pencil sim=0.9593
+         nbr: 40. I sim=0.9475
+  [TOP3] GT=33. Pencil | Pred=PLEASED | conf=0.401
+         nbr: 33. Pencil sim=0.9627
+         nbr: 56. Pleased sim=0.9595
+         nbr: 56. Pleased sim=0.9479
+  [FAIL] GT=34. Pen | Pred=GRANDMOTHER | conf=0.204
+         nbr: 70. Grandmother sim=0.9536
+         nbr: 41. you sim=0.9386
+         nbr: 52. Pink sim=0.9325
+  [FAIL] GT=34. Pen | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9655
+         nbr: 38. Dress sim=0.9646
+         nbr: 41. you sim=0.9589
+  [OK  ] GT=34. Pen | Pred=PEN | conf=0.210
+         nbr: 34. Pen sim=0.9620
+         nbr: 29. Door sim=0.9426
+         nbr: 15. Boat sim=0.9078
+  [OK  ] GT=35. Photograph | Pred=PHOTOGRAPH | conf=0.411
+         nbr: 35. Photograph sim=0.9720
+         nbr: 35. Photograph sim=0.9263
+         nbr: 29. Door sim=0.9145
+  [OK  ] GT=35. Photograph | Pred=PHOTOGRAPH | conf=0.210
+         nbr: 35. Photograph sim=0.9918
+         nbr: 70. Grandmother sim=0.9432
+         nbr: 16. train ticket sim=0.9343
+  [OK  ] GT=35. Photograph | Pred=PHOTOGRAPH | conf=0.404
+         nbr: 35. Photograph sim=0.9174
+         nbr: 62. Parent sim=0.9045
+         nbr: 71. Husband sim=0.8997
+  [TOP3] GT=36. Soap | Pred=FISH | conf=0.204
+         nbr: 3. Fish sim=0.9494
+         nbr: 36. Soap sim=0.9281
+         nbr: 85. slow sim=0.9280
+  [TOP3] GT=36. Soap | Pred=BOAT | conf=0.395
+         nbr: 36. Soap sim=0.9695
+         nbr: 15. Boat sim=0.9035
+         nbr: 1. Dog sim=0.8975
+  [OK  ] GT=36. Soap | Pred=SOAP | conf=0.402
+         nbr: 36. Soap sim=0.9232
+         nbr: 36. Soap sim=0.9206
+         nbr: 3. Fish sim=0.9182
+  [OK  ] GT=37. Book | Pred=BOOK | conf=0.205
+         nbr: 37. Book sim=0.9585
+         nbr: 24. School sim=0.9435
+         nbr: 12. Truck sim=0.9317
+  [OK  ] GT=37. Book | Pred=BOOK | conf=0.605
+         nbr: 37. Book sim=0.9690
+         nbr: 37. Book sim=0.9438
+         nbr: 37. Book sim=0.9381
+  [TOP3] GT=37. Book | Pred=TRAIN TICKET | conf=0.399
+         nbr: 37. Book sim=0.9566
+         nbr: 16. train ticket sim=0.9458
+         nbr: 9. Train sim=0.9443
+  [FAIL] GT=38. Page | Pred=I | conf=0.399
+         nbr: 21. Sign sim=0.9471
+         nbr: 40. I sim=0.9343
+         nbr: 44. it sim=0.9253
+  [OK  ] GT=38. Page | Pred=PAGE | conf=0.408
+         nbr: 38. Page sim=0.9816
+         nbr: 38. Page sim=0.9271
+         nbr: 14. Bus sim=0.9253
+  [TOP3] GT=38. Page | Pred=SPRING | conf=0.396
+         nbr: 38. Page sim=0.9846
+         nbr: 62. Spring sim=0.9358
+         nbr: 24. School sim=0.9293
+  [TOP3] GT=39. Key | Pred=IT | conf=0.399
+         nbr: 40. I sim=0.9423
+         nbr: 39. Key sim=0.9391
+         nbr: 44. it sim=0.9336
+  [OK  ] GT=39. Key | Pred=KEY | conf=0.204
+         nbr: 39. Key sim=0.9855
+         nbr: 40. Paint sim=0.9722
+         nbr: 97. Reporter sim=0.9615
+  [TOP3] GT=39. Key | Pred=BOAT | conf=0.397
+         nbr: 39. Key sim=0.9490
+         nbr: 15. Boat sim=0.9107
+         nbr: 36. Soap sim=0.9018
+  [OK  ] GT=40. Paint | Pred=PAINT | conf=0.204
+         nbr: 40. Paint sim=0.9354
+         nbr: 39. Key sim=0.9145
+         nbr: 27. Dream sim=0.9140
+  [OK  ] GT=40. Paint | Pred=PAINT | conf=0.203
+         nbr: 40. Paint sim=0.9823
+         nbr: 7. Horse sim=0.9656
+         nbr: 2. Cat sim=0.9640
+  [OK  ] GT=40. Paint | Pred=PAINT | conf=0.401
+         nbr: 40. Paint sim=0.9797
+         nbr: 39. Key sim=0.9714
+         nbr: 97. Reporter sim=0.9611
+  [TOP3] GT=41. Letter | Pred=COURT | conf=0.201
+         nbr: 23. Court sim=0.9072
+         nbr: 41. Letter sim=0.9052
+         nbr: 38. Dress sim=0.9048
+  [OK  ] GT=41. Letter | Pred=LETTER | conf=0.207
+         nbr: 41. Letter sim=0.9865
+         nbr: 1. Religion sim=0.9484
+         nbr: 43. Lock sim=0.9450
+  [OK  ] GT=41. Letter | Pred=LETTER | conf=0.206
+         nbr: 41. Letter sim=0.9541
+         nbr: 70. Grandmother sim=0.9253
+         nbr: 42. T-Shirt sim=0.9186
+  [FAIL] GT=42. Paper | Pred=DRESS | conf=0.400
+         nbr: 38. Dress sim=0.9479
+         nbr: 57. Colour sim=0.9477
+         nbr: 40. I sim=0.9472
+  [OK  ] GT=42. Paper | Pred=PAPER | conf=0.206
+         nbr: 42. Paper sim=0.9619
+         nbr: 81. Second sim=0.9371
+         nbr: 41. Shirt sim=0.9291
+  [FAIL] GT=42. Paper | Pred=CLOTHING | conf=0.398
+         nbr: 38. Dress sim=0.9472
+         nbr: 40. I sim=0.9457
+         nbr: 46. Clothing sim=0.9380
+  [FAIL] GT=43. Lock | Pred=SCHOOL | conf=0.203
+         nbr: 24. School sim=0.9418
+         nbr: 67. Monday sim=0.9308
+         nbr: 9. Technology sim=0.9213
+  [OK  ] GT=43. Lock | Pred=LOCK | conf=0.205
+         nbr: 43. Lock sim=0.9708
+         nbr: 67. Monday sim=0.9485
+         nbr: 9. Train sim=0.9484
+  [FAIL] GT=43. Lock | Pred=NEWSPAPER | conf=0.400
+         nbr: 15. Newspaper sim=0.9587
+         nbr: 1. loud sim=0.9563
+         nbr: 48. Green sim=0.9550
+  [FAIL] GT=44. Telephone | Pred=MALE | conf=0.200
+         nbr: 19. male sim=0.9726
+         nbr: 64. Man sim=0.9716
+         nbr: 91. Priest sim=0.9705
+  [FAIL] GT=44. Telephone | Pred=I | conf=0.201
+         nbr: 40. I sim=0.9531
+         nbr: 46. Clothing sim=0.9478
+         nbr: 48. Hello sim=0.9462
+  [FAIL] GT=44. Telephone | Pred=FAST | conf=0.201
+         nbr: 86. fast sim=0.9501
+         nbr: 40. I sim=0.9496
+         nbr: 16. Gun sim=0.9451
+  [FAIL] GT=45. Bag | Pred=T-SHIRT | conf=0.207
+         nbr: 42. T-Shirt sim=0.8944
+         nbr: 50. Alright sim=0.8590
+         nbr: 41. Shirt sim=0.8578
+  [OK  ] GT=45. Bag | Pred=BAG | conf=0.213
+         nbr: 45. Bag sim=0.9277
+         nbr: 10. Energy sim=0.8636
+         nbr: 8. Animal sim=0.8612
+  [OK  ] GT=45. Bag | Pred=BAG | conf=0.205
+         nbr: 45. Bag sim=0.9476
+         nbr: 2. Death sim=0.9183
+         nbr: 2. Cat sim=0.9181
+  [OK  ] GT=46. Box | Pred=BOX | conf=0.417
+         nbr: 46. Box sim=0.9871
+         nbr: 46. Box sim=0.9406
+         nbr: 44. Shoes sim=0.9159
+  [OK  ] GT=46. Box | Pred=BOX | conf=0.423
+         nbr: 46. Box sim=0.9881
+         nbr: 46. Box sim=0.9405
+         nbr: 50. Tool sim=0.8899
+  [OK  ] GT=46. Box | Pred=BOX | conf=0.605
+         nbr: 46. Box sim=0.9359
+         nbr: 46. Box sim=0.9014
+         nbr: 46. Box sim=0.8979
+  [FAIL] GT=47. Gift | Pred=MOTHER | conf=0.403
+         nbr: 60. Mother sim=0.8876
+         nbr: 60. Mother sim=0.8861
+         nbr: 46. you (plural) sim=0.8782
+  [OK  ] GT=47. Gift | Pred=GIFT | conf=0.205
+         nbr: 47. Gift sim=0.9613
+         nbr: 2. quiet sim=0.9342
+         nbr: 16. train ticket sim=0.9328
+  [TOP3] GT=47. Gift | Pred=YOU | conf=0.204
+         nbr: 41. you sim=0.9326
+         nbr: 47. Gift sim=0.9124
+         nbr: 16. train ticket sim=0.9109
+  [OK  ] GT=48. Card | Pred=CARD | conf=0.403
+         nbr: 48. Card sim=0.9495
+         nbr: 42. T-Shirt sim=0.9315
+         nbr: 70. Grandmother sim=0.9306
+  [OK  ] GT=48. Card | Pred=CARD | conf=0.204
+         nbr: 48. Card sim=0.9904
+         nbr: 2. Death sim=0.9685
+         nbr: 16. train ticket sim=0.9675
+  [TOP3] GT=48. Card | Pred=AUTHOR | conf=0.399
+         nbr: 48. Card sim=0.9445
+         nbr: 70. Grandmother sim=0.9443
+         nbr: 95. Author sim=0.9443
+  [OK  ] GT=49. Ring | Pred=RING | conf=0.202
+         nbr: 49. Ring sim=0.9048
+         nbr: 88. Patient sim=0.9015
+         nbr: 42. T-Shirt sim=0.9000
+  [OK  ] GT=49. Ring | Pred=RING | conf=0.430
+         nbr: 49. Ring sim=0.9744
+         nbr: 49. Ring sim=0.9364
+         nbr: 20. Price sim=0.8622
+  [OK  ] GT=49. Ring | Pred=RING | conf=0.421
+         nbr: 49. Ring sim=0.9597
+         nbr: 49. Ring sim=0.9384
+         nbr: 20. Price sim=0.8885
+  [OK  ] GT=50. Tool | Pred=TOOL | conf=0.601
+         nbr: 50. Tool sim=0.9577
+         nbr: 8. Animal sim=0.9153
+         nbr: 17. Sport sim=0.8911
+  [OK  ] GT=50. Tool | Pred=TOOL | conf=0.410
+         nbr: 50. Tool sim=0.9602
+         nbr: 44. Shoes sim=0.8917
+         nbr: 50. Tool sim=0.8807
+  [OK  ] GT=50. Tool | Pred=TOOL | conf=0.405
+         nbr: 50. Tool sim=0.9836
+         nbr: 17. Sport sim=0.9391
+         nbr: 8. Animal sim=0.9323
+  [OK  ] GT=84. Teacher | Pred=TEACHER | conf=0.401
+         nbr: 84. Teacher sim=0.9221
+         nbr: 2. quiet sim=0.9203
+         nbr: 51. Brown sim=0.9177
+  [TOP3] GT=84. Teacher | Pred=HORSE | conf=0.203
+         nbr: 7. Horse sim=0.9304
+         nbr: 2. quiet sim=0.9206
+         nbr: 84. Teacher sim=0.9172
+  [FAIL] GT=84. Teacher | Pred=SLOW | conf=0.201
+         nbr: 85. slow sim=0.9359
+         nbr: 7. Horse sim=0.9340
+         nbr: 40. I sim=0.9305
+  [OK  ] GT=85. Student | Pred=STUDENT | conf=0.402
+         nbr: 85. Student sim=0.9435
+         nbr: 85. Student sim=0.9378
+         nbr: 4. Bird sim=0.9360
+  [TOP3] GT=85. Student | Pred=SPRING | conf=0.396
+         nbr: 38. Page sim=0.9570
+         nbr: 85. Student sim=0.9396
+         nbr: 62. Spring sim=0.9349
+  [TOP3] GT=85. Student | Pred=NEWSPAPER | conf=0.398
+         nbr: 85. Student sim=0.9893
+         nbr: 15. Newspaper sim=0.9655
+         nbr: 15. Newspaper sim=0.9614
+  [TOP3] GT=86. Lawyer | Pred=DEATH | conf=0.201
+         nbr: 2. Death sim=0.9722
+         nbr: 16. train ticket sim=0.9716
+         nbr: 86. Lawyer sim=0.9705
+  [FAIL] GT=86. Lawyer | Pred=SHIRT | conf=0.399
+         nbr: 50. Tool sim=0.9167
+         nbr: 23. Court sim=0.9160
+         nbr: 41. Shirt sim=0.9081
+  [FAIL] GT=86. Lawyer | Pred=T-SHIRT | conf=0.603
+         nbr: 42. T-Shirt sim=0.8951
+         nbr: 42. T-Shirt sim=0.8778
+         nbr: 50. Alright sim=0.8760
+  [OK  ] GT=87. Doctor | Pred=DOCTOR | conf=0.201
+         nbr: 87. Doctor sim=0.9711
+         nbr: 98. sick sim=0.9701
+         nbr: 64. Fall sim=0.9673
+  [FAIL] GT=87. Doctor | Pred=WEAK | conf=0.398
+         nbr: 51. Brown sim=0.9324
+         nbr: 3. Fish sim=0.9239
+         nbr: 32. weak sim=0.9194
+  [TOP3] GT=87. Doctor | Pred=BROWN | conf=0.391
+         nbr: 3. Fish sim=0.9451
+         nbr: 87. Doctor sim=0.9323
+         nbr: 86. Time sim=0.9031
+  [OK  ] GT=88. Patient | Pred=PATIENT | conf=0.400
+         nbr: 88. Patient sim=0.9723
+         nbr: 46. you (plural) sim=0.9643
+         nbr: 40. I sim=0.9601
+  [OK  ] GT=88. Patient | Pred=PATIENT | conf=0.207
+         nbr: 88. Patient sim=0.9302
+         nbr: 32. Bathroom sim=0.8936
+         nbr: 7. Horse sim=0.8898
+  [OK  ] GT=88. Patient | Pred=PATIENT | conf=0.404
+         nbr: 88. Patient sim=0.9780
+         nbr: 88. Patient sim=0.9497
+         nbr: 44. it sim=0.9486
+  [TOP3] GT=89. Waiter | Pred=GOOD AFTERNOON | conf=0.401
+         nbr: 52. Good afternoon sim=0.9679
+         nbr: 89. Waiter sim=0.9644
+         nbr: 53. Good evening sim=0.9586
+  [TOP3] GT=89. Waiter | Pred=GOOD AFTERNOON | conf=0.400
+         nbr: 89. Waiter sim=0.9691
+         nbr: 52. Good afternoon sim=0.9630
+         nbr: 48. Hello sim=0.9617
+  [TOP3] GT=89. Waiter | Pred=GOOD AFTERNOON | conf=0.398
+         nbr: 89. Waiter sim=0.9764
+         nbr: 40. I sim=0.9517
+         nbr: 52. Good afternoon sim=0.9510
+  [TOP3] GT=90. Secretary | Pred=BATHROOM | conf=0.398
+         nbr: 90. Secretary sim=0.9347
+         nbr: 32. Bathroom sim=0.9103
+         nbr: 8. Race (ethnicity) sim=0.9075
+  [TOP3] GT=90. Secretary | Pred=GIRL | conf=0.396
+         nbr: 90. Secretary sim=0.9528
+         nbr: 46. Clothing sim=0.9458
+         nbr: 46. you (plural) sim=0.9407
+  [FAIL] GT=90. Secretary | Pred=DEATH | conf=0.201
+         nbr: 2. Death sim=0.9718
+         nbr: 57. Colour sim=0.9709
+         nbr: 16. train ticket sim=0.9699
+  [TOP3] GT=91. Priest | Pred=HAT | conf=0.598
+         nbr: 91. Priest sim=0.9938
+         nbr: 37. Hat sim=0.9836
+         nbr: 18. curved sim=0.9808
+  [OK  ] GT=91. Priest | Pred=PRIEST | conf=0.402
+         nbr: 91. Priest sim=0.9616
+         nbr: 52. Lamp sim=0.9471
+         nbr: 19. male sim=0.9464
+  [OK  ] GT=91. Priest | Pred=PRIEST | conf=0.202
+         nbr: 91. Priest sim=0.9580
+         nbr: 44. Telephone sim=0.9447
+         nbr: 19. male sim=0.9437
+  [FAIL] GT=92. Police | Pred=PARENT | conf=0.202
+         nbr: 62. Parent sim=0.9222
+         nbr: 3. Fish sim=0.9186
+         nbr: 69. Grandfather sim=0.9067
+  [FAIL] GT=92. Police | Pred=GRANDMOTHER | conf=0.201
+         nbr: 70. Grandmother sim=0.9422
+         nbr: 2. quiet sim=0.9401
+         nbr: 16. train ticket sim=0.9386
+  [FAIL] GT=92. Police | Pred=BROTHER | conf=0.400
+         nbr: 66. Brother sim=0.9475
+         nbr: 46. you (plural) sim=0.9474
+         nbr: 66. Brother sim=0.9435
+  [TOP3] GT=93. Soldier | Pred=ANIMAL | conf=0.203
+         nbr: 8. Animal sim=0.9539
+         nbr: 93. Soldier sim=0.9477
+         nbr: 42. T-Shirt sim=0.9316
+  [FAIL] GT=93. Soldier | Pred=DEATH | conf=0.202
+         nbr: 2. Death sim=0.9647
+         nbr: 16. train ticket sim=0.9643
+         nbr: 7. Horse sim=0.9531
+  [TOP3] GT=93. Soldier | Pred=ANIMAL | conf=0.400
+         nbr: 42. T-Shirt sim=0.9143
+         nbr: 93. Soldier sim=0.9118
+         nbr: 8. Animal sim=0.9111
+  [OK  ] GT=94. Artist | Pred=ARTIST | conf=0.402
+         nbr: 94. Artist sim=0.9818
+         nbr: 94. Artist sim=0.9804
+         nbr: 18. curved sim=0.9752
+  [OK  ] GT=94. Artist | Pred=ARTIST | conf=0.401
+         nbr: 94. Artist sim=0.9866
+         nbr: 94. Artist sim=0.9819
+         nbr: 18. curved sim=0.9807
+  [FAIL] GT=94. Artist | Pred=GRANDMOTHER | conf=0.402
+         nbr: 70. Grandmother sim=0.9582
+         nbr: 41. you sim=0.9395
+         nbr: 88. Patient sim=0.9384
+  [OK  ] GT=95. Author | Pred=AUTHOR | conf=0.607
+         nbr: 95. Author sim=0.9912
+         nbr: 95. Author sim=0.9614
+         nbr: 95. Author sim=0.9465
+  [OK  ] GT=95. Author | Pred=AUTHOR | conf=0.409
+         nbr: 95. Author sim=0.9975
+         nbr: 95. Author sim=0.9667
+         nbr: 14. Bus sim=0.9533
+  [OK  ] GT=95. Author | Pred=AUTHOR | conf=0.209
+         nbr: 95. Author sim=0.9979
+         nbr: 14. Bus sim=0.9521
+         nbr: 86. Lawyer sim=0.9473
+  [OK  ] GT=96. Manager | Pred=MANAGER | conf=0.429
+         nbr: 96. Manager sim=0.9820
+         nbr: 96. Manager sim=0.9516
+         nbr: 50. Tool sim=0.8662
+  [OK  ] GT=96. Manager | Pred=MANAGER | conf=0.616
+         nbr: 96. Manager sim=0.9824
+         nbr: 96. Manager sim=0.9458
+         nbr: 96. Manager sim=0.8839
+  [OK  ] GT=96. Manager | Pred=MANAGER | conf=0.207
+         nbr: 96. Manager sim=0.9649
+         nbr: 8. Animal sim=0.9291
+         nbr: 32. Bathroom sim=0.9248
+  [TOP3] GT=97. Reporter | Pred=PAINT | conf=0.397
+         nbr: 97. Reporter sim=0.9569
+         nbr: 39. Key sim=0.9475
+         nbr: 40. Paint sim=0.9362
+  [TOP3] GT=97. Reporter | Pred=HORSE | conf=0.201
+         nbr: 7. Horse sim=0.9563
+         nbr: 16. train ticket sim=0.9537
+         nbr: 97. Reporter sim=0.9489
+  [FAIL] GT=97. Reporter | Pred=AUTHOR | conf=0.203
+         nbr: 95. Author sim=0.9398
+         nbr: 48. Card sim=0.9268
+         nbr: 2. Death sim=0.9243
+  [OK  ] GT=98. Actor | Pred=ACTOR | conf=0.609
+         nbr: 98. Actor sim=0.9807
+         nbr: 98. Actor sim=0.9530
+         nbr: 98. Actor sim=0.9481
+  [OK  ] GT=98. Actor | Pred=ACTOR | conf=0.603
+         nbr: 98. Actor sim=0.9667
+         nbr: 98. Actor sim=0.9503
+         nbr: 28. shallow sim=0.9418
+  [OK  ] GT=98. Actor | Pred=ACTOR | conf=0.607
+         nbr: 98. Actor sim=0.9769
+         nbr: 98. Actor sim=0.9362
+         nbr: 98. Actor sim=0.9222
+  [TOP3] GT=99. Job | Pred=THEY | conf=0.201
+         nbr: 47. they sim=0.9666
+         nbr: 99. Job sim=0.9619
+         nbr: 53. Fan sim=0.9617
+  [FAIL] GT=99. Job | Pred=THEY | conf=0.203
+         nbr: 47. they sim=0.9685
+         nbr: 88. Patient sim=0.9572
+         nbr: 53. Fan sim=0.9538
+  [OK  ] GT=99. Job | Pred=JOB | conf=0.401
+         nbr: 52. Lamp sim=0.9758
+         nbr: 99. Job sim=0.9757
+         nbr: 61. Summer sim=0.9666
+  [OK  ] GT=10. Plane | Pred=PLANE | conf=0.409
+         nbr: 10. Plane sim=0.9727
+         nbr: 10. Plane sim=0.9291
+         nbr: 9. Train sim=0.9235
+  [OK  ] GT=10. Plane | Pred=PLANE | conf=0.203
+         nbr: 10. Plane sim=0.9838
+         nbr: 9. Train sim=0.9695
+         nbr: 53. Orange sim=0.9685
+  [OK  ] GT=10. Plane | Pred=PLANE | conf=0.408
+         nbr: 10. Plane sim=0.9926
+         nbr: 6. Mouse sim=0.9323
+         nbr: 1. Dog sim=0.9186
+  [OK  ] GT=10. Plane | Pred=PLANE | conf=0.403
+         nbr: 10. Plane sim=0.9779
+         nbr: 10. Plane sim=0.9730
+         nbr: 74. Queen sim=0.9657
+  [OK  ] GT=11. Car | Pred=CAR | conf=0.407
+         nbr: 11. Car sim=0.9911
+         nbr: 11. Car sim=0.9531
+         nbr: 95. Author sim=0.9477
+  [OK  ] GT=11. Car | Pred=CAR | conf=0.409
+         nbr: 11. Car sim=0.9963
+         nbr: 11. Car sim=0.9447
+         nbr: 16. train ticket sim=0.9390
+  [OK  ] GT=11. Car | Pred=CAR | conf=0.601
+         nbr: 11. Car sim=0.9680
+         nbr: 95. Author sim=0.9547
+         nbr: 95. Author sim=0.9544
+  [OK  ] GT=11. Car | Pred=CAR | conf=0.417
+         nbr: 11. Car sim=0.9811
+         nbr: 11. Car sim=0.8841
+         nbr: 35. Photograph sim=0.8729
+  [OK  ] GT=12. Truck | Pred=TRUCK | conf=0.406
+         nbr: 12. Truck sim=0.9798
+         nbr: 12. Truck sim=0.9385
+         nbr: 16. train ticket sim=0.9376
+  [TOP3] GT=12. Truck | Pred=AUTHOR | conf=0.399
+         nbr: 16. train ticket sim=0.9604
+         nbr: 95. Author sim=0.9491
+         nbr: 12. Truck sim=0.9461
+  [OK  ] GT=12. Truck | Pred=TRUCK | conf=0.602
+         nbr: 12. Truck sim=0.9518
+         nbr: 1. Dog sim=0.9100
+         nbr: 12. Truck sim=0.8915
+  [OK  ] GT=12. Truck | Pred=TRUCK | conf=0.411
+         nbr: 12. Truck sim=0.9926
+         nbr: 12. Truck sim=0.9238
+         nbr: 16. train ticket sim=0.9201
+  [FAIL] GT=13. Bicycle | Pred=PARENT | conf=0.399
+         nbr: 69. Grandfather sim=0.9514
+         nbr: 41. Shirt sim=0.9383
+         nbr: 62. Parent sim=0.9371
+  [OK  ] GT=13. Bicycle | Pred=BICYCLE | conf=0.615
+         nbr: 13. Bicycle sim=0.9858
+         nbr: 13. Bicycle sim=0.9563
+         nbr: 15. Boat sim=0.8891
+  [OK  ] GT=13. Bicycle | Pred=BICYCLE | conf=0.423
+         nbr: 13. Bicycle sim=0.9697
+         nbr: 13. Bicycle sim=0.9622
+         nbr: 1. Dog sim=0.8872
+  [OK  ] GT=13. Bicycle | Pred=BICYCLE | conf=0.209
+         nbr: 13. Bicycle sim=0.9391
+         nbr: 17. Sport sim=0.9029
+         nbr: 45. Bag sim=0.8885
+  [OK  ] GT=14. Bus | Pred=BUS | conf=0.205
+         nbr: 14. Bus sim=0.9747
+         nbr: 48. Card sim=0.9574
+         nbr: 31. Temple sim=0.9435
+  [OK  ] GT=14. Bus | Pred=BUS | conf=0.408
+         nbr: 14. Bus sim=0.9924
+         nbr: 11. Car sim=0.9390
+         nbr: 14. Bus sim=0.9329
+  [OK  ] GT=14. Bus | Pred=BUS | conf=0.407
+         nbr: 14. Bus sim=0.9820
+         nbr: 14. Bus sim=0.9626
+         nbr: 95. Author sim=0.9555
+  [OK  ] GT=14. Bus | Pred=BUS | conf=0.406
+         nbr: 14. Bus sim=0.9899
+         nbr: 14. Bus sim=0.9690
+         nbr: 95. Author sim=0.9562
+  [OK  ] GT=15. Boat | Pred=BOAT | conf=0.421
+         nbr: 15. Boat sim=0.9869
+         nbr: 15. Boat sim=0.9542
+         nbr: 39. Key sim=0.9011
+  [OK  ] GT=15. Boat | Pred=BOAT | conf=0.418
+         nbr: 15. Boat sim=0.9941
+         nbr: 15. Boat sim=0.9537
+         nbr: 1. Dog sim=0.9103
+  [OK  ] GT=15. Boat | Pred=BOAT | conf=0.212
+         nbr: 15. Boat sim=0.9699
+         nbr: 69. Grandfather sim=0.9175
+         nbr: 8. Animal sim=0.8992
+  [OK  ] GT=15. Boat | Pred=BOAT | conf=0.414
+         nbr: 15. Boat sim=0.9929
+         nbr: 15. Boat sim=0.9096
+         nbr: 13. Bicycle sim=0.9082
+  [OK  ] GT=16. train ticket | Pred=TRAIN TICKET | conf=0.206
+         nbr: 16. train ticket sim=0.9981
+         nbr: 23. God sim=0.9652
+         nbr: 7. Horse sim=0.9629
+  [OK  ] GT=16. train ticket | Pred=TRAIN TICKET | conf=0.407
+         nbr: 16. train ticket sim=0.9770
+         nbr: 14. Bus sim=0.9299
+         nbr: 16. train ticket sim=0.9299
+  [OK  ] GT=16. train ticket | Pred=TRAIN TICKET | conf=0.404
+         nbr: 16. train ticket sim=0.9838
+         nbr: 16. train ticket sim=0.9616
+         nbr: 70. Grandmother sim=0.9583
+  [OK  ] GT=16. train ticket | Pred=TRAIN TICKET | conf=0.407
+         nbr: 16. train ticket sim=0.9708
+         nbr: 16. train ticket sim=0.9650
+         nbr: 56. Pleased sim=0.9426
+  [OK  ] GT=17. Transportation | Pred=TRANSPORTATION | conf=0.602
+         nbr: 17. Transportation sim=0.9676
+         nbr: 14. Election sim=0.9248
+         nbr: 44. Shoes sim=0.9247
+  [OK  ] GT=17. Transportation | Pred=TRANSPORTATION | conf=0.408
+         nbr: 17. Transportation sim=0.9509
+         nbr: 17. Transportation sim=0.9429
+         nbr: 14. Election sim=0.9189
+  [OK  ] GT=17. Transportation | Pred=TRANSPORTATION | conf=0.408
+         nbr: 17. Transportation sim=0.9899
+         nbr: 17. Transportation sim=0.9371
+         nbr: 5. Cow sim=0.9359
+  [OK  ] GT=17. Transportation | Pred=TRANSPORTATION | conf=0.805
+         nbr: 17. Transportation sim=0.9869
+         nbr: 17. Transportation sim=0.9317
+         nbr: 17. Transportation sim=0.9277
+  [OK  ] GT=9. Train | Pred=TRAIN | conf=0.411
+         nbr: 9. Train sim=0.9852
+         nbr: 9. Train sim=0.9546
+         nbr: 7. Horse sim=0.9485
+  [OK  ] GT=9. Train | Pred=TRAIN | conf=0.203
+         nbr: 9. Train sim=0.9962
+         nbr: 48. Hello sim=0.9803
+         nbr: 37. Hat sim=0.9782
+  [OK  ] GT=9. Train | Pred=TRAIN | conf=0.613
+         nbr: 9. Train sim=0.9950
+         nbr: 9. Train sim=0.9670
+         nbr: 9. Train sim=0.9355
+  [OK  ] GT=9. Train | Pred=TRAIN | conf=0.606
+         nbr: 9. Train sim=0.9967
+         nbr: 9. Train sim=0.9474
+         nbr: 9. Train sim=0.9461
+  [TOP3] GT=58. Son | Pred=BROTHER | conf=0.400
+         nbr: 66. Brother sim=0.9380
+         nbr: 70. Grandmother sim=0.9377
+         nbr: 58. Son sim=0.9367
+  [OK  ] GT=58. Son | Pred=SON | conf=0.207
+         nbr: 58. Son sim=0.9610
+         nbr: 59. Daughter sim=0.9282
+         nbr: 21. Sign sim=0.9208
+  [TOP3] GT=58. Son | Pred=PARENT | conf=0.404
+         nbr: 62. Parent sim=0.9209
+         nbr: 58. Son sim=0.9065
+         nbr: 62. Parent sim=0.9064
+  [FAIL] GT=58. Son | Pred=GRANDMOTHER | conf=0.203
+         nbr: 70. Grandmother sim=0.9510
+         nbr: 50. Yellow sim=0.9394
+         nbr: 55. White sim=0.9353
+  [FAIL] GT=59. Daughter | Pred=ARTIST | conf=0.202
+         nbr: 94. Artist sim=0.9209
+         nbr: 43. she sim=0.9160
+         nbr: 22. Restaurant sim=0.9138
+  [OK  ] GT=59. Daughter | Pred=DAUGHTER | conf=0.206
+         nbr: 59. Daughter sim=0.9780
+         nbr: 47. Red sim=0.9470
+         nbr: 61. Summer sim=0.9448
+  [OK  ] GT=59. Daughter | Pred=DAUGHTER | conf=0.202
+         nbr: 59. Daughter sim=0.9800
+         nbr: 15. expensive sim=0.9714
+         nbr: 40. I sim=0.9681
+  [OK  ] GT=59. Daughter | Pred=DAUGHTER | conf=0.399
+         nbr: 40. I sim=0.9698
+         nbr: 2. quiet sim=0.9675
+         nbr: 59. Daughter sim=0.9672
+  [OK  ] GT=60. Mother | Pred=MOTHER | conf=0.407
+         nbr: 60. Mother sim=0.9775
+         nbr: 60. Mother sim=0.9697
+         nbr: 46. you (plural) sim=0.9482
+  [OK  ] GT=60. Mother | Pred=MOTHER | conf=0.410
+         nbr: 60. Mother sim=0.9787
+         nbr: 60. Mother sim=0.9712
+         nbr: 80. Adult sim=0.9374
+  [TOP3] GT=60. Mother | Pred=YOU | conf=0.201
+         nbr: 41. you sim=0.9697
+         nbr: 60. Mother sim=0.9655
+         nbr: 38. Dress sim=0.9649
+  [FAIL] GT=60. Mother | Pred=I | conf=0.400
+         nbr: 38. Dress sim=0.9749
+         nbr: 41. you sim=0.9708
+         nbr: 40. I sim=0.9704
+  [TOP3] GT=61. Father | Pred=PARENT | conf=0.402
+         nbr: 62. Parent sim=0.9484
+         nbr: 61. Father sim=0.9361
+         nbr: 20. Price sim=0.9194
+  [TOP3] GT=61. Father | Pred=PARENT | conf=0.404
+         nbr: 62. Parent sim=0.9368
+         nbr: 62. Parent sim=0.9348
+         nbr: 61. Father sim=0.9274
+  [OK  ] GT=61. Father | Pred=FATHER | conf=0.598
+         nbr: 62. Parent sim=0.9164
+         nbr: 62. Parent sim=0.9070
+         nbr: 61. Father sim=0.9067
+  [TOP3] GT=61. Father | Pred=PARENT | conf=0.603
+         nbr: 62. Parent sim=0.9065
+         nbr: 62. Parent sim=0.9048
+         nbr: 69. Grandfather sim=0.8909
+  [OK  ] GT=62. Parent | Pred=PARENT | conf=0.606
+         nbr: 62. Parent sim=0.9712
+         nbr: 62. Parent sim=0.9481
+         nbr: 62. Parent sim=0.9400
+  [OK  ] GT=62. Parent | Pred=PARENT | conf=0.605
+         nbr: 62. Parent sim=0.9724
+         nbr: 62. Parent sim=0.9558
+         nbr: 62. Parent sim=0.9500
+  [OK  ] GT=62. Parent | Pred=PARENT | conf=0.606
+         nbr: 62. Parent sim=0.9853
+         nbr: 62. Parent sim=0.9503
+         nbr: 62. Parent sim=0.9491
+  [OK  ] GT=62. Parent | Pred=PARENT | conf=0.203
+         nbr: 62. Parent sim=0.9415
+         nbr: 60. Mother sim=0.9268
+         nbr: 70. Grandmother sim=0.9251
+  [OK  ] GT=63. Baby | Pred=BABY | conf=0.208
+         nbr: 63. Baby sim=0.9276
+         nbr: 86. fast sim=0.8981
+         nbr: 30. dirty sim=0.8814
+  [OK  ] GT=63. Baby | Pred=BABY | conf=0.202
+         nbr: 63. Baby sim=0.9734
+         nbr: 98. sick sim=0.9731
+         nbr: 91. Priest sim=0.9634
+  [TOP3] GT=63. Baby | Pred=TRUCK | conf=0.211
+         nbr: 12. Truck sim=0.9285
+         nbr: 63. Baby sim=0.8802
+         nbr: 29. clean sim=0.8691
+  [FAIL] GT=63. Baby | Pred=YOU | conf=0.202
+         nbr: 41. you sim=0.9551
+         nbr: 40. I sim=0.9483
+         nbr: 38. Dress sim=0.9462
+  [FAIL] GT=64. Man | Pred=BOY | conf=0.201
+         nbr: 77. Boy sim=0.9621
+         nbr: 50. Yellow sim=0.9602
+         nbr: 78. Girl sim=0.9535
+  [FAIL] GT=64. Man | Pred=BOY | conf=0.402
+         nbr: 77. Boy sim=0.9583
+         nbr: 19. male sim=0.9481
+         nbr: 77. Boy sim=0.9460
+  [FAIL] GT=64. Man | Pred=COLOUR | conf=0.202
+         nbr: 57. Colour sim=0.9874
+         nbr: 95. bad sim=0.9767
+         nbr: 33. dead sim=0.9765
+  [FAIL] GT=64. Man | Pred=COLOUR | conf=0.201
+         nbr: 57. Colour sim=0.9846
+         nbr: 13. thick sim=0.9799
+         nbr: 95. bad sim=0.9752
+  [FAIL] GT=65. Woman | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9583
+         nbr: 41. you sim=0.9527
+         nbr: 70. Grandmother sim=0.9507
+  [FAIL] GT=65. Woman | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9748
+         nbr: 38. Dress sim=0.9663
+         nbr: 41. you sim=0.9630
+  [FAIL] GT=65. Woman | Pred=I | conf=0.203
+         nbr: 40. I sim=0.9863
+         nbr: 38. Dress sim=0.9770
+         nbr: 81. Second sim=0.9716
+  [FAIL] GT=65. Woman | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9775
+         nbr: 86. fast sim=0.9683
+         nbr: 13. thick sim=0.9673
+  [OK  ] GT=66. Brother | Pred=BROTHER | conf=0.403
+         nbr: 66. Brother sim=0.9722
+         nbr: 66. Brother sim=0.9703
+         nbr: 2. quiet sim=0.9614
+  [TOP3] GT=66. Brother | Pred=POCKET | conf=0.398
+         nbr: 66. Brother sim=0.9855
+         nbr: 45. Pocket sim=0.9544
+         nbr: 67. Sister sim=0.9428
+  [OK  ] GT=66. Brother | Pred=BROTHER | conf=0.402
+         nbr: 66. Brother sim=0.9848
+         nbr: 64. Man sim=0.9730
+         nbr: 66. Brother sim=0.9712
+  [OK  ] GT=66. Brother | Pred=BROTHER | conf=0.404
+         nbr: 66. Brother sim=0.9660
+         nbr: 66. Brother sim=0.9659
+         nbr: 2. quiet sim=0.9512
+  [OK  ] GT=67. Sister | Pred=SISTER | conf=0.407
+         nbr: 67. Sister sim=0.9563
+         nbr: 67. Sister sim=0.9361
+         nbr: 2. quiet sim=0.9288
+  [FAIL] GT=67. Sister | Pred=QUIET | conf=0.201
+         nbr: 2. quiet sim=0.9552
+         nbr: 70. Grandmother sim=0.9551
+         nbr: 57. Colour sim=0.9492
+  [FAIL] GT=67. Sister | Pred=QUIET | conf=0.401
+         nbr: 40. I sim=0.9359
+         nbr: 2. quiet sim=0.9346
+         nbr: 2. quiet sim=0.9316
+  [FAIL] GT=67. Sister | Pred=POCKET | conf=0.400
+         nbr: 45. Pocket sim=0.9717
+         nbr: 66. Brother sim=0.9650
+         nbr: 59. Daughter sim=0.9619
+  [FAIL] GT=68. Family | Pred=RING | conf=0.399
+         nbr: 44. Shoes sim=0.8972
+         nbr: 49. Ring sim=0.8809
+         nbr: 20. Price sim=0.8735
+  [OK  ] GT=68. Family | Pred=FAMILY | conf=0.204
+         nbr: 68. Family sim=0.9521
+         nbr: 79. Hour sim=0.9371
+         nbr: 51. Clock sim=0.9345
+  [FAIL] GT=68. Family | Pred=SHIRT | conf=0.202
+         nbr: 41. Shirt sim=0.9571
+         nbr: 98. sick sim=0.9462
+         nbr: 79. Hour sim=0.9435
+  [OK  ] GT=69. Grandfather | Pred=GRANDFATHER | conf=0.209
+         nbr: 69. Grandfather sim=0.9708
+         nbr: 70. Grandmother sim=0.9235
+         nbr: 30. Bedroom sim=0.9165
+  [TOP3] GT=69. Grandfather | Pred=PARENT | conf=0.398
+         nbr: 69. Grandfather sim=0.9729
+         nbr: 62. Parent sim=0.9372
+         nbr: 70. Grandmother sim=0.9325
+  [OK  ] GT=69. Grandfather | Pred=GRANDFATHER | conf=0.601
+         nbr: 69. Grandfather sim=0.9413
+         nbr: 94. Artist sim=0.9339
+         nbr: 69. Grandfather sim=0.9241
+  [OK  ] GT=70. Grandmother | Pred=GRANDMOTHER | conf=0.406
+         nbr: 70. Grandmother sim=0.9896
+         nbr: 70. Grandmother sim=0.9673
+         nbr: 60. Mother sim=0.9564
+  [OK  ] GT=70. Grandmother | Pred=GRANDMOTHER | conf=0.407
+         nbr: 70. Grandmother sim=0.9976
+         nbr: 70. Grandmother sim=0.9766
+         nbr: 2. Death sim=0.9675
+  [TOP3] GT=70. Grandmother | Pred=YOU | conf=0.397
+         nbr: 70. Grandmother sim=0.9959
+         nbr: 41. you sim=0.9560
+         nbr: 46. Clothing sim=0.9486
+  [OK  ] GT=71. Husband | Pred=HUSBAND | conf=0.599
+         nbr: 72. Wife sim=0.8696
+         nbr: 71. Husband sim=0.8544
+         nbr: 71. Husband sim=0.8526
+  [OK  ] GT=71. Husband | Pred=HUSBAND | conf=0.209
+         nbr: 71. Husband sim=0.9538
+         nbr: 30. Bedroom sim=0.9064
+         nbr: 35. Photograph sim=0.9027
+  [TOP3] GT=71. Husband | Pred=MAN | conf=0.400
+         nbr: 71. Husband sim=0.9651
+         nbr: 64. Man sim=0.9628
+         nbr: 64. Man sim=0.9609
+  [TOP3] GT=71. Husband | Pred=PARENT | conf=0.400
+         nbr: 71. Husband sim=0.9327
+         nbr: 62. Parent sim=0.9282
+         nbr: 62. Parent sim=0.9245
+  [FAIL] GT=72. Wife | Pred=WHITE | conf=0.400
+         nbr: 52. Pink sim=0.9428
+         nbr: 55. White sim=0.9416
+         nbr: 70. Grandmother sim=0.9415
+  [FAIL] GT=72. Wife | Pred=TRAIN TICKET | conf=0.201
+         nbr: 16. train ticket sim=0.8820
+         nbr: 23. Court sim=0.8785
+         nbr: 5. Bill sim=0.8783
+  [FAIL] GT=72. Wife | Pred=HUSBAND | conf=0.402
+         nbr: 71. Husband sim=0.8905
+         nbr: 31. Kitchen sim=0.8758
+         nbr: 98. Actor sim=0.8757
+  [FAIL] GT=72. Wife | Pred=I | conf=0.202
+         nbr: 40. I sim=0.9589
+         nbr: 46. you (plural) sim=0.9529
+         nbr: 7. Horse sim=0.9489
+  [FAIL] GT=73. King | Pred=QUEEN | conf=0.399
+         nbr: 79. Child sim=0.9812
+         nbr: 74. Queen sim=0.9731
+         nbr: 80. Adult sim=0.9730
+  [OK  ] GT=73. King | Pred=KING | conf=0.601
+         nbr: 73. King sim=0.9857
+         nbr: 73. King sim=0.9824
+         nbr: 73. King sim=0.9819
+  [OK  ] GT=73. King | Pred=KING | conf=0.600
+         nbr: 73. King sim=0.9850
+         nbr: 64. Man sim=0.9829
+         nbr: 73. King sim=0.9821
+  [OK  ] GT=73. King | Pred=KING | conf=0.601
+         nbr: 73. King sim=0.9847
+         nbr: 73. King sim=0.9829
+         nbr: 73. King sim=0.9812
+  [OK  ] GT=74. Queen | Pred=QUEEN | conf=0.401
+         nbr: 79. Child sim=0.9754
+         nbr: 74. Queen sim=0.9719
+         nbr: 74. Queen sim=0.9678
+  [OK  ] GT=74. Queen | Pred=QUEEN | conf=0.400
+         nbr: 79. Child sim=0.9827
+         nbr: 80. Adult sim=0.9738
+         nbr: 74. Queen sim=0.9736
+  [OK  ] GT=74. Queen | Pred=QUEEN | conf=0.406
+         nbr: 74. Queen sim=0.9945
+         nbr: 74. Queen sim=0.9933
+         nbr: 73. King sim=0.9754
+  [OK  ] GT=74. Queen | Pred=QUEEN | conf=0.404
+         nbr: 74. Queen sim=0.9947
+         nbr: 74. Queen sim=0.9907
+         nbr: 73. King sim=0.9816
+  [OK  ] GT=75. President | Pred=PRESIDENT | conf=0.601
+         nbr: 75. President sim=0.9313
+         nbr: 81. Friend sim=0.9097
+         nbr: 14. Bus sim=0.9095
+  [TOP3] GT=75. President | Pred=T-SHIRT | conf=0.398
+         nbr: 75. President sim=0.9215
+         nbr: 42. T-Shirt sim=0.9023
+         nbr: 26. hard sim=0.9015
+  [TOP3] GT=75. President | Pred=WINTER | conf=0.202
+         nbr: 63. Winter sim=0.9391
+         nbr: 20. Price sim=0.9364
+         nbr: 75. President sim=0.9311
+  [TOP3] GT=75. President | Pred=T-SHIRT | conf=0.394
+         nbr: 75. President sim=0.9499
+         nbr: 45. we sim=0.9074
+         nbr: 42. T-Shirt sim=0.9022
+  [TOP3] GT=76. Neighbour | Pred=LIBRARY | conf=0.397
+         nbr: 76. Neighbour sim=0.9447
+         nbr: 42. Paper sim=0.9311
+         nbr: 16. train ticket sim=0.9299
+  [OK  ] GT=76. Neighbour | Pred=NEIGHBOUR | conf=0.398
+         nbr: 38. Page sim=0.9241
+         nbr: 95. Author sim=0.9241
+         nbr: 14. Bus sim=0.9207
+  [FAIL] GT=76. Neighbour | Pred=WET | conf=0.399
+         nbr: 96. wet sim=0.9429
+         nbr: 38. Page sim=0.9428
+         nbr: 16. train ticket sim=0.9413
+  [OK  ] GT=76. Neighbour | Pred=NEIGHBOUR | conf=0.202
+         nbr: 76. Neighbour sim=0.9618
+         nbr: 1. Religion sim=0.9523
+         nbr: 16. train ticket sim=0.9518
+  [OK  ] GT=77. Boy | Pred=BOY | conf=0.202
+         nbr: 77. Boy sim=0.9752
+         nbr: 81. Second sim=0.9670
+         nbr: 19. male sim=0.9651
+  [FAIL] GT=77. Boy | Pred=GRANDMOTHER | conf=0.201
+         nbr: 70. Grandmother sim=0.9615
+         nbr: 41. you sim=0.9585
+         nbr: 40. I sim=0.9530
+  [FAIL] GT=77. Boy | Pred=THICK | conf=0.201
+         nbr: 13. thick sim=0.9693
+         nbr: 57. Colour sim=0.9667
+         nbr: 56. Grey sim=0.9623
+  [OK  ] GT=77. Boy | Pred=BOY | conf=0.402
+         nbr: 77. Boy sim=0.9590
+         nbr: 90. cool sim=0.9539
+         nbr: 77. Boy sim=0.9474
+  [OK  ] GT=78. Girl | Pred=GIRL | conf=0.401
+         nbr: 78. Girl sim=0.9691
+         nbr: 78. Girl sim=0.9662
+         nbr: 53. Good evening sim=0.9645
+  [FAIL] GT=78. Girl | Pred=I | conf=0.201
+         nbr: 40. I sim=0.9587
+         nbr: 70. Grandmother sim=0.9565
+         nbr: 41. you sim=0.9546
+  [OK  ] GT=78. Girl | Pred=GIRL | conf=0.203
+         nbr: 78. Girl sim=0.9603
+         nbr: 72. Saturday sim=0.9460
+         nbr: 47. Red sim=0.9428
+  [OK  ] GT=78. Girl | Pred=GIRL | conf=0.202
+         nbr: 78. Girl sim=0.9809
+         nbr: 40. I sim=0.9750
+         nbr: 38. Dress sim=0.9685
+  [FAIL] GT=79. Child | Pred=EXPENSIVE | conf=0.200
+         nbr: 15. expensive sim=0.9749
+         nbr: 10. Mean sim=0.9747
+         nbr: 44. it sim=0.9720
+  [TOP3] GT=79. Child | Pred=ADULT | conf=0.600
+         nbr: 79. Child sim=0.9963
+         nbr: 80. Adult sim=0.9888
+         nbr: 80. Adult sim=0.9788
+  [TOP3] GT=79. Child | Pred=GUN | conf=0.201
+         nbr: 16. Gun sim=0.9432
+         nbr: 2. Death sim=0.9416
+         nbr: 79. Child sim=0.9409
+  [TOP3] GT=79. Child | Pred=FAST | conf=0.400
+         nbr: 86. fast sim=0.9753
+         nbr: 54. Good night sim=0.9692
+         nbr: 79. Child sim=0.9666
+  [OK  ] GT=80. Adult | Pred=ADULT | conf=0.401
+         nbr: 80. Adult sim=0.9852
+         nbr: 79. Child sim=0.9769
+         nbr: 64. Man sim=0.9713
+  [OK  ] GT=80. Adult | Pred=ADULT | conf=0.800
+         nbr: 80. Adult sim=0.9862
+         nbr: 80. Adult sim=0.9829
+         nbr: 79. Child sim=0.9809
+  [OK  ] GT=80. Adult | Pred=ADULT | conf=0.800
+         nbr: 80. Adult sim=0.9882
+         nbr: 80. Adult sim=0.9827
+         nbr: 79. Child sim=0.9750
+  [OK  ] GT=80. Adult | Pred=ADULT | conf=0.800
+         nbr: 80. Adult sim=0.9761
+         nbr: 80. Adult sim=0.9727
+         nbr: 79. Child sim=0.9691
+  [TOP3] GT=81. Friend | Pred=I | conf=0.401
+         nbr: 81. Friend sim=0.9625
+         nbr: 40. I sim=0.9586
+         nbr: 40. I sim=0.9553
+  [FAIL] GT=81. Friend | Pred=SECRETARY | conf=0.202
+         nbr: 90. Secretary sim=0.9149
+         nbr: 38. Dress sim=0.9127
+         nbr: 52. Pink sim=0.9080
+  [FAIL] GT=81. Friend | Pred=PINK | conf=0.201
+         nbr: 52. Pink sim=0.9339
+         nbr: 3. Fish sim=0.9334
+         nbr: 47. Gift sim=0.9266
+  [TOP3] GT=81. Friend | Pred=I | conf=0.402
+         nbr: 81. Friend sim=0.9568
+         nbr: 40. I sim=0.9561
+         nbr: 40. I sim=0.9543
+  [TOP3] GT=82. Player | Pred=CHEAP | conf=0.399
+         nbr: 82. Player sim=0.9749
+         nbr: 98. sick sim=0.9747
+         nbr: 94. Artist sim=0.9720
+  [FAIL] GT=82. Player | Pred=WINTER | conf=0.202
+         nbr: 63. Winter sim=0.9424
+         nbr: 50. Alright sim=0.9336
+         nbr: 50. Yellow sim=0.9334
+  [OK  ] GT=82. Player | Pred=PLAYER | conf=0.201
+         nbr: 82. Player sim=0.9568
+         nbr: 41. Shirt sim=0.9548
+         nbr: 14. thin sim=0.9508
+  [OK  ] GT=82. Player | Pred=PLAYER | conf=0.404
+         nbr: 82. Player sim=0.9704
+         nbr: 82. Player sim=0.9690
+         nbr: 94. Artist sim=0.9563
+  [TOP3] GT=83. Crowd | Pred=DEATH | conf=0.202
+         nbr: 2. Death sim=0.9675
+         nbr: 83. Crowd sim=0.9656
+         nbr: 16. train ticket sim=0.9526
+  [OK  ] GT=83. Crowd | Pred=CROWD | conf=0.402
+         nbr: 83. Crowd sim=0.9456
+         nbr: 83. Crowd sim=0.9367
+         nbr: 4. Bird sim=0.9362
+  [FAIL] GT=83. Crowd | Pred=BIRD | conf=0.603
+         nbr: 4. Bird sim=0.9448
+         nbr: 4. Bird sim=0.9420
+         nbr: 8. Animal sim=0.9325
+  [TOP3] GT=83. Crowd | Pred=BIRD | conf=0.400
+         nbr: 83. Crowd sim=0.9677
+         nbr: 4. Bird sim=0.9574
+         nbr: 29. Library sim=0.9421
+  [OK  ] GT=18. City | Pred=CITY | conf=0.211
+         nbr: 18. City sim=0.9757
+         nbr: 17. Transportation sim=0.9150
+         nbr: 85. Student sim=0.9127
+  [FAIL] GT=18. City | Pred=TRAIN TICKET | conf=0.201
+         nbr: 16. train ticket sim=0.9474
+         nbr: 9. Train sim=0.9459
+         nbr: 48. Green sim=0.9436
+  [FAIL] GT=18. City | Pred=LIBRARY | conf=0.402
+         nbr: 29. Library sim=0.9478
+         nbr: 29. Library sim=0.9474
+         nbr: 96. wet sim=0.9403
+  [TOP3] GT=18. City | Pred=TRAIN | conf=0.200
+         nbr: 9. Train sim=0.9650
+         nbr: 18. City sim=0.9647
+         nbr: 51. Good Morning sim=0.9637
+  [OK  ] GT=19. House | Pred=HOUSE | conf=0.404
+         nbr: 19. House sim=0.9726
+         nbr: 19. House sim=0.9540
+         nbr: 76. Neighbour sim=0.9529
+  [FAIL] GT=19. House | Pred=WET | conf=0.399
+         nbr: 16. train ticket sim=0.9483
+         nbr: 12. Truck sim=0.9442
+         nbr: 96. wet sim=0.9422
+  [OK  ] GT=19. House | Pred=HOUSE | conf=0.400
+         nbr: 16. train ticket sim=0.9661
+         nbr: 2. Cat sim=0.9574
+         nbr: 19. House sim=0.9562
+  [TOP3] GT=19. House | Pred=GOD | conf=0.400
+         nbr: 19. House sim=0.9581
+         nbr: 16. train ticket sim=0.9581
+         nbr: 76. Neighbour sim=0.9568
+  [OK  ] GT=20. Street or Road | Pred=STREET OR ROAD | conf=0.201
+         nbr: 20. Street or Road sim=0.9483
+         nbr: 43. Pant sim=0.9461
+         nbr: 44. it sim=0.9449
+  [TOP3] GT=20. Street or Road | Pred=WEAK | conf=0.403
+         nbr: 32. weak sim=0.9162
+         nbr: 32. weak sim=0.9139
+         nbr: 20. Street or Road sim=0.9088
+  [FAIL] GT=20. Street or Road | Pred=SHOES | conf=0.406
+         nbr: 44. Shoes sim=0.9238
+         nbr: 44. Shoes sim=0.8994
+         nbr: 17. Transportation sim=0.8920
+  [TOP3] GT=20. Street or Road | Pred=SKIRT | conf=0.400
+         nbr: 20. Street or Road sim=0.9741
+         nbr: 3. Fish sim=0.9701
+         nbr: 40. Skirt sim=0.9693
+  [FAIL] GT=21. Train Station | Pred=AUTHOR | conf=0.203
+         nbr: 95. Author sim=0.9541
+         nbr: 29. Library sim=0.9431
+         nbr: 8. Animal sim=0.9394
+  [FAIL] GT=21. Train Station | Pred=LIBRARY | conf=0.202
+         nbr: 29. Library sim=0.9481
+         nbr: 1. Religion sim=0.9399
+         nbr: 23. Court sim=0.9390
+  [OK  ] GT=21. Train Station | Pred=TRAIN STATION | conf=0.202
+         nbr: 21. Train Station sim=0.9558
+         nbr: 23. Court sim=0.9504
+         nbr: 48. Card sim=0.9448
+  [OK  ] GT=21. Train Station | Pred=TRAIN STATION | conf=0.211
+         nbr: 21. Train Station sim=0.9624
+         nbr: 89. Waiter sim=0.9002
+         nbr: 22. Restaurant sim=0.8989
+  [OK  ] GT=22. Restaurant | Pred=RESTAURANT | conf=0.202
+         nbr: 22. Restaurant sim=0.9566
+         nbr: 54. Good night sim=0.9439
+         nbr: 46. you (plural) sim=0.9424
+  [TOP3] GT=22. Restaurant | Pred=SAD | conf=0.201
+         nbr: 4. sad sim=0.9460
+         nbr: 22. Restaurant sim=0.9412
+         nbr: 33. Pencil sim=0.9410
+  [FAIL] GT=22. Restaurant | Pred=FAST | conf=0.202
+         nbr: 86. fast sim=0.9762
+         nbr: 34. alive sim=0.9677
+         nbr: 40. I sim=0.9664
+  [OK  ] GT=22. Restaurant | Pred=RESTAURANT | conf=0.402
+         nbr: 22. Restaurant sim=0.9367
+         nbr: 40. I sim=0.9205
+         nbr: 21. Sign sim=0.9196
+  [OK  ] GT=23. Court | Pred=COURT | conf=0.411
+         nbr: 23. Court sim=0.9776
+         nbr: 23. Court sim=0.9652
+         nbr: 38. Dress sim=0.9305
+  [FAIL] GT=23. Court | Pred=SHIRT | conf=0.206
+         nbr: 41. Shirt sim=0.9531
+         nbr: 13. thick sim=0.9261
+         nbr: 48. Card sim=0.9228
+  [OK  ] GT=23. Court | Pred=COURT | conf=0.410
+         nbr: 23. Court sim=0.9836
+         nbr: 23. Court sim=0.9695
+         nbr: 38. Dress sim=0.9415
+  [FAIL] GT=23. Court | Pred=SHOES | conf=0.403
+         nbr: 44. Shoes sim=0.9115
+         nbr: 44. Shoes sim=0.9089
+         nbr: 8. Animal sim=0.9081
+  [OK  ] GT=24. School | Pred=SCHOOL | conf=0.404
+         nbr: 24. School sim=0.9598
+         nbr: 24. School sim=0.9592
+         nbr: 87. hot sim=0.9499
+  [OK  ] GT=24. School | Pred=SCHOOL | conf=0.406
+         nbr: 24. School sim=0.9816
+         nbr: 37. Book sim=0.9446
+         nbr: 38. Page sim=0.9398
+  [OK  ] GT=24. School | Pred=SCHOOL | conf=0.400
+         nbr: 16. train ticket sim=0.9628
+         nbr: 85. Student sim=0.9618
+         nbr: 24. School sim=0.9580
+  [TOP3] GT=24. School | Pred=PAGE | conf=0.202
+         nbr: 38. Page sim=0.9376
+         nbr: 24. School sim=0.9323
+         nbr: 30. Bedroom sim=0.9303
+  [FAIL] GT=25. Office | Pred=I | conf=0.400
+         nbr: 40. I sim=0.9677
+         nbr: 4. sad sim=0.9675
+         nbr: 44. it sim=0.9642
+  [FAIL] GT=25. Office | Pred=GOOD AFTERNOON | conf=0.401
+         nbr: 52. Good afternoon sim=0.9761
+         nbr: 48. Hello sim=0.9744
+         nbr: 52. Good afternoon sim=0.9735
+  [FAIL] GT=25. Office | Pred=BLUE | conf=0.202
+         nbr: 49. Blue sim=0.9749
+         nbr: 51. Good Morning sim=0.9666
+         nbr: 19. Ball sim=0.9662
+  [FAIL] GT=25. Office | Pred=GOOD NIGHT | conf=0.401
+         nbr: 54. Good night sim=0.9673
+         nbr: 54. Good night sim=0.9625
+         nbr: 52. Good afternoon sim=0.9608
+  [FAIL] GT=26. University | Pred=MONEY | conf=0.201
+         nbr: 4. Money sim=0.9677
+         nbr: 54. Good night sim=0.9646
+         nbr: 53. Good evening sim=0.9613
+  [OK  ] GT=26. University | Pred=UNIVERSITY | conf=0.400
+         nbr: 53. Good evening sim=0.9523
+         nbr: 26. University sim=0.9504
+         nbr: 4. Money sim=0.9501
+  [FAIL] GT=26. University | Pred=I | conf=0.601
+         nbr: 40. I sim=0.9507
+         nbr: 40. I sim=0.9499
+         nbr: 4. sad sim=0.9479
+  [FAIL] GT=26. University | Pred=MONEY | conf=0.202
+         nbr: 4. Money sim=0.9736
+         nbr: 22. Restaurant sim=0.9654
+         nbr: 4. sad sim=0.9605
+  [OK  ] GT=27. Park | Pred=PARK | conf=0.407
+         nbr: 27. Park sim=0.9570
+         nbr: 27. Park sim=0.9541
+         nbr: 38. Page sim=0.9346
+  [FAIL] GT=27. Park | Pred=BUS | conf=0.401
+         nbr: 14. Bus sim=0.9503
+         nbr: 95. Author sim=0.9451
+         nbr: 2. Death sim=0.9315
+  [OK  ] GT=27. Park | Pred=PARK | conf=0.404
+         nbr: 27. Park sim=0.9707
+         nbr: 38. Page sim=0.9403
+         nbr: 87. hot sim=0.9345
+  [FAIL] GT=27. Park | Pred=BATHROOM | conf=0.202
+         nbr: 32. Bathroom sim=0.9514
+         nbr: 95. Author sim=0.9459
+         nbr: 70. Grandmother sim=0.9422
+  [FAIL] GT=28. Store or Shop | Pred=BIRD | conf=0.202
+         nbr: 4. Bird sim=0.9150
+         nbr: 60. Radio sim=0.9119
+         nbr: 20. Street or Road sim=0.9087
+  [FAIL] GT=28. Store or Shop | Pred=FISH | conf=0.203
+         nbr: 3. Fish sim=0.8979
+         nbr: 4. Bird sim=0.8841
+         nbr: 60. Radio sim=0.8830
+  [FAIL] GT=28. Store or Shop | Pred=DOG | conf=0.204
+         nbr: 1. Dog sim=0.9258
+         nbr: 82. narrow sim=0.9071
+         nbr: 20. Street or Road sim=0.9042
+  [OK  ] GT=29. Library | Pred=LIBRARY | conf=0.207
+         nbr: 29. Library sim=0.9178
+         nbr: 9. Train sim=0.8844
+         nbr: 16. train ticket sim=0.8803
+  [TOP3] GT=29. Library | Pred=GOOD MORNING | conf=0.399
+         nbr: 29. Library sim=0.9943
+         nbr: 51. Good Morning sim=0.9732
+         nbr: 94. good sim=0.9632
+  [TOP3] GT=29. Library | Pred=BEDROOM | conf=0.400
+         nbr: 29. Library sim=0.9519
+         nbr: 30. Bedroom sim=0.9302
+         nbr: 30. Bedroom sim=0.9287
+  [OK  ] GT=29. Library | Pred=LIBRARY | conf=0.406
+         nbr: 29. Library sim=0.9726
+         nbr: 29. Library sim=0.9596
+         nbr: 56. Grey sim=0.9441
+  [OK  ] GT=30. Hospital | Pred=HOSPITAL | conf=0.603
+         nbr: 30. Hospital sim=0.9720
+         nbr: 30. Hospital sim=0.9536
+         nbr: 30. Hospital sim=0.9511
+  [TOP3] GT=30. Hospital | Pred=WET | conf=0.401
+         nbr: 96. wet sim=0.9662
+         nbr: 30. Hospital sim=0.9565
+         nbr: 5. Beautiful sim=0.9533
+  [FAIL] GT=30. Hospital | Pred=TRAIN TICKET | conf=0.201
+         nbr: 16. train ticket sim=0.9676
+         nbr: 96. wet sim=0.9642
+         nbr: 5. Beautiful sim=0.9614
+  [OK  ] GT=30. Hospital | Pred=HOSPITAL | conf=0.400
+         nbr: 96. wet sim=0.9582
+         nbr: 30. Hospital sim=0.9533
+         nbr: 16. train ticket sim=0.9509
+  [OK  ] GT=31. Temple | Pred=TEMPLE | conf=0.604
+         nbr: 31. Temple sim=0.9680
+         nbr: 31. Temple sim=0.9597
+         nbr: 65. Season sim=0.9472
+  [OK  ] GT=31. Temple | Pred=TEMPLE | conf=0.605
+         nbr: 31. Temple sim=0.9842
+         nbr: 31. Temple sim=0.9575
+         nbr: 65. Season sim=0.9446
+  [OK  ] GT=31. Temple | Pred=TEMPLE | conf=0.205
+         nbr: 31. Temple sim=0.9756
+         nbr: 16. train ticket sim=0.9494
+         nbr: 65. Season sim=0.9462
+  [OK  ] GT=31. Temple | Pred=TEMPLE | conf=0.210
+         nbr: 31. Temple sim=0.9752
+         nbr: 13. Attack sim=0.9226
+         nbr: 20. Price sim=0.9163
+  [FAIL] GT=32. Market | Pred=T-SHIRT | conf=0.606
+         nbr: 42. T-Shirt sim=0.9020
+         nbr: 42. T-Shirt sim=0.8897
+         nbr: 42. T-Shirt sim=0.8807
+  [FAIL] GT=32. Market | Pred=HORSE | conf=0.399
+         nbr: 6. Mouse sim=0.9403
+         nbr: 7. Horse sim=0.9367
+         nbr: 1. Dog sim=0.9322
+  [FAIL] GT=32. Market | Pred=STREET OR ROAD | conf=0.202
+         nbr: 20. Street or Road sim=0.9281
+         nbr: 7. Horse sim=0.9241
+         nbr: 1. Dog sim=0.9203
+  [FAIL] GT=33. India | Pred=THICK | conf=0.401
+         nbr: 13. thick sim=0.9695
+         nbr: 40. I sim=0.9669
+         nbr: 13. thick sim=0.9629
+  [FAIL] GT=33. India | Pred=FAN | conf=0.401
+         nbr: 53. Fan sim=0.9614
+         nbr: 53. Fan sim=0.9608
+         nbr: 54. Cell phone sim=0.9582
+  [FAIL] GT=33. India | Pred=THICK | conf=0.400
+         nbr: 40. I sim=0.9644
+         nbr: 86. fast sim=0.9632
+         nbr: 13. thick sim=0.9629
+  [FAIL] GT=33. India | Pred=ADULT | conf=0.400
+         nbr: 77. Boy sim=0.9585
+         nbr: 40. I sim=0.9570
+         nbr: 80. Adult sim=0.9556
+  [TOP3] GT=34. Ground | Pred=T-SHIRT | conf=0.203
+         nbr: 42. T-Shirt sim=0.9213
+         nbr: 34. Ground sim=0.9152
+         nbr: 8. Animal sim=0.9083
+  [TOP3] GT=34. Ground | Pred=BEDROOM | conf=0.401
+         nbr: 30. Bedroom sim=0.9363
+         nbr: 41. Letter sim=0.9237
+         nbr: 34. Ground sim=0.9184
+  [TOP3] GT=34. Ground | Pred=CAT | conf=0.599
+         nbr: 34. Ground sim=0.9607
+         nbr: 2. Cat sim=0.9501
+         nbr: 2. Cat sim=0.9495
+  [OK  ] GT=34. Ground | Pred=GROUND | conf=0.402
+         nbr: 34. Ground sim=0.9527
+         nbr: 67. Monday sim=0.9377
+         nbr: 42. T-Shirt sim=0.9364
+  [TOP3] GT=35. Bank | Pred=SLOW | conf=0.201
+         nbr: 85. slow sim=0.9120
+         nbr: 35. Bank sim=0.9107
+         nbr: 36. Location sim=0.9089
+  [OK  ] GT=35. Bank | Pred=BANK | conf=0.404
+         nbr: 35. Bank sim=0.9137
+         nbr: 35. Bank sim=0.8994
+         nbr: 88. Patient sim=0.8925
+  [FAIL] GT=35. Bank | Pred=COURT | conf=0.403
+         nbr: 23. Court sim=0.9299
+         nbr: 23. Court sim=0.9232
+         nbr: 85. slow sim=0.9220
+  [FAIL] GT=35. Bank | Pred=SLOW | conf=0.202
+         nbr: 85. slow sim=0.9428
+         nbr: 20. Street or Road sim=0.9343
+         nbr: 7. Horse sim=0.9338
+  [OK  ] GT=36. Location | Pred=LOCATION | conf=0.410
+         nbr: 36. Location sim=0.9142
+         nbr: 36. Location sim=0.8972
+         nbr: 27. Dream sim=0.8720
+  [OK  ] GT=36. Location | Pred=LOCATION | conf=0.414
+         nbr: 36. Location sim=0.9439
+         nbr: 36. Location sim=0.9257
+         nbr: 23. Court sim=0.8892
+  [TOP3] GT=36. Location | Pred=TRAIN TICKET | conf=0.399
+         nbr: 36. Location sim=0.9552
+         nbr: 16. train ticket sim=0.9350
+         nbr: 16. train ticket sim=0.9326
+  [TOP3] GT=36. Location | Pred=BOAT | conf=0.400
+         nbr: 36. Location sim=0.9472
+         nbr: 15. Boat sim=0.8975
+         nbr: 15. Boat sim=0.8893
+  [OK  ] GT=40. I | Pred=I | conf=0.408
+         nbr: 40. I sim=0.9885
+         nbr: 21. Sign sim=0.9292
+         nbr: 40. I sim=0.9292
+  [OK  ] GT=40. I | Pred=I | conf=0.401
+         nbr: 40. I sim=0.9541
+         nbr: 41. you sim=0.9529
+         nbr: 40. I sim=0.9523
+  [OK  ] GT=40. I | Pred=I | conf=0.204
+         nbr: 40. I sim=0.9858
+         nbr: 38. Dress sim=0.9683
+         nbr: 81. Second sim=0.9601
+  [OK  ] GT=40. I | Pred=I | conf=0.203
+         nbr: 40. I sim=0.9887
+         nbr: 46. you (plural) sim=0.9878
+         nbr: 34. alive sim=0.9638
+  [FAIL] GT=41. you | Pred=I | conf=0.400
+         nbr: 46. you (plural) sim=0.9766
+         nbr: 9. Train sim=0.9764
+         nbr: 40. I sim=0.9749
+  [TOP3] GT=41. you | Pred=DRESS | conf=0.201
+         nbr: 38. Dress sim=0.9710
+         nbr: 40. I sim=0.9709
+         nbr: 41. you sim=0.9630
+  [OK  ] GT=41. you | Pred=YOU | conf=0.405
+         nbr: 41. you sim=0.9806
+         nbr: 41. you sim=0.9631
+         nbr: 70. Grandmother sim=0.9525
+  [OK  ] GT=41. you | Pred=YOU | conf=0.404
+         nbr: 41. you sim=0.9915
+         nbr: 38. Dress sim=0.9653
+         nbr: 40. I sim=0.9546
+  [FAIL] GT=42. he | Pred=SHE | conf=0.201
+         nbr: 43. she sim=0.9598
+         nbr: 70. Grandmother sim=0.9581
+         nbr: 40. I sim=0.9574
+  [TOP3] GT=42. he | Pred=SHE | conf=0.400
+         nbr: 43. she sim=0.9418
+         nbr: 42. he sim=0.9317
+         nbr: 70. Grandmother sim=0.9303
+  [OK  ] GT=42. he | Pred=HE | conf=0.201
+         nbr: 42. he sim=0.9778
+         nbr: 56. Grey sim=0.9716
+         nbr: 53. Good evening sim=0.9704
+  [FAIL] GT=42. he | Pred=GRANDMOTHER | conf=0.203
+         nbr: 70. Grandmother sim=0.9314
+         nbr: 33. Pencil sim=0.9231
+         nbr: 43. she sim=0.9157
+  [OK  ] GT=43. she | Pred=SHE | conf=0.202
+         nbr: 43. she sim=0.9589
+         nbr: 42. he sim=0.9507
+         nbr: 53. Good evening sim=0.9503
+  [OK  ] GT=43. she | Pred=SHE | conf=0.204
+         nbr: 43. she sim=0.9667
+         nbr: 86. fast sim=0.9479
+         nbr: 21. Sign sim=0.9461
+  [OK  ] GT=43. she | Pred=SHE | conf=0.210
+         nbr: 43. she sim=0.9902
+         nbr: 44. it sim=0.9370
+         nbr: 90. cool sim=0.9334
+  [OK  ] GT=43. she | Pred=SHE | conf=0.401
+         nbr: 43. she sim=0.9481
+         nbr: 21. Sign sim=0.9426
+         nbr: 46. you (plural) sim=0.9391
+  [OK  ] GT=44. it | Pred=IT | conf=0.607
+         nbr: 44. it sim=0.9868
+         nbr: 44. it sim=0.9384
+         nbr: 44. it sim=0.9384
+  [TOP3] GT=44. it | Pred=MOUSE | conf=0.405
+         nbr: 6. Mouse sim=0.9881
+         nbr: 40. Skirt sim=0.9796
+         nbr: 6. Mouse sim=0.9758
+  [FAIL] GT=44. it | Pred=MOUSE | conf=0.602
+         nbr: 6. Mouse sim=0.9895
+         nbr: 40. Skirt sim=0.9749
+         nbr: 6. Mouse sim=0.9732
+  [TOP3] GT=44. it | Pred=MOUSE | conf=0.399
+         nbr: 44. it sim=0.9786
+         nbr: 6. Mouse sim=0.9706
+         nbr: 15. expensive sim=0.9693
+  [OK  ] GT=45. we | Pred=WE | conf=0.214
+         nbr: 45. we sim=0.9664
+         nbr: 69. Grandfather sim=0.8971
+         nbr: 30. Bedroom sim=0.8927
+  [TOP3] GT=45. we | Pred=HORSE | conf=0.201
+         nbr: 7. Horse sim=0.9271
+         nbr: 45. we sim=0.9253
+         nbr: 95. Author sim=0.9232
+  [TOP3] GT=45. we | Pred=BEDROOM | conf=0.396
+         nbr: 45. we sim=0.9815
+         nbr: 30. Bedroom sim=0.9275
+         nbr: 42. T-Shirt sim=0.9090
+  [OK  ] GT=45. we | Pred=WE | conf=0.204
+         nbr: 45. we sim=0.9681
+         nbr: 7. Horse sim=0.9573
+         nbr: 56. Pleased sim=0.9423
+  [OK  ] GT=46. you (plural) | Pred=YOU (PLURAL) | conf=0.202
+         nbr: 46. you (plural) sim=0.9799
+         nbr: 40. I sim=0.9733
+         nbr: 9. Train sim=0.9672
+  [OK  ] GT=46. you (plural) | Pred=YOU (PLURAL) | conf=0.204
+         nbr: 46. you (plural) sim=0.9634
+         nbr: 70. Grandmother sim=0.9448
+         nbr: 41. you sim=0.9393
+  [TOP3] GT=46. you (plural) | Pred=EXPENSIVE | conf=0.398
+         nbr: 46. you (plural) sim=0.9891
+         nbr: 40. I sim=0.9809
+         nbr: 15. expensive sim=0.9728
+  [OK  ] GT=46. you (plural) | Pred=YOU (PLURAL) | conf=0.203
+         nbr: 46. you (plural) sim=0.9714
+         nbr: 70. Grandmother sim=0.9575
+         nbr: 46. Clothing sim=0.9539
+  [OK  ] GT=47. they | Pred=THEY | conf=0.602
+         nbr: 47. they sim=0.9061
+         nbr: 47. they sim=0.9049
+         nbr: 61. Summer sim=0.9023
+  [OK  ] GT=47. they | Pred=THEY | conf=0.405
+         nbr: 47. they sim=0.9785
+         nbr: 47. they sim=0.9643
+         nbr: 53. Fan sim=0.9537
+  [TOP3] GT=47. they | Pred=IT | conf=0.594
+         nbr: 47. they sim=0.9898
+         nbr: 44. it sim=0.9443
+         nbr: 44. it sim=0.9259
+  [OK  ] GT=47. they | Pred=THEY | conf=0.407
+         nbr: 47. they sim=0.9901
+         nbr: 47. they sim=0.9433
+         nbr: 61. Summer sim=0.9387
+  [OK  ] GT=61. Summer | Pred=SUMMER | conf=0.607
+         nbr: 61. Summer sim=0.9695
+         nbr: 61. Summer sim=0.9558
+         nbr: 61. Summer sim=0.9432
+  [OK  ] GT=61. Summer | Pred=SUMMER | conf=0.603
+         nbr: 61. Summer sim=0.9740
+         nbr: 61. Summer sim=0.9599
+         nbr: 52. Lamp sim=0.9562
+  [OK  ] GT=61. Summer | Pred=SUMMER | conf=0.605
+         nbr: 61. Summer sim=0.9612
+         nbr: 61. Summer sim=0.9386
+         nbr: 61. Summer sim=0.9371
+  [OK  ] GT=62. Spring | Pred=SPRING | conf=0.609
+         nbr: 62. Spring sim=0.9896
+         nbr: 62. Spring sim=0.9414
+         nbr: 62. Spring sim=0.9359
+  [OK  ] GT=62. Spring | Pred=SPRING | conf=0.609
+         nbr: 62. Spring sim=0.9653
+         nbr: 62. Spring sim=0.9632
+         nbr: 38. Page sim=0.9348
+  [OK  ] GT=62. Spring | Pred=SPRING | conf=0.405
+         nbr: 62. Spring sim=0.9651
+         nbr: 38. Page sim=0.9307
+         nbr: 12. Truck sim=0.9095
+  [TOP3] GT=63. Winter | Pred=ALRIGHT | conf=0.403
+         nbr: 50. Alright sim=0.9365
+         nbr: 63. Winter sim=0.9301
+         nbr: 10. Energy sim=0.9054
+  [OK  ] GT=63. Winter | Pred=WINTER | conf=0.405
+         nbr: 63. Winter sim=0.9487
+         nbr: 63. Winter sim=0.9374
+         nbr: 90. Secretary sim=0.9251
+  [OK  ] GT=63. Winter | Pred=WINTER | conf=0.405
+         nbr: 63. Winter sim=0.9673
+         nbr: 38. Dress sim=0.9290
+         nbr: 42. T-Shirt sim=0.9186
+  [OK  ] GT=64. Fall | Pred=FALL | conf=0.402
+         nbr: 64. Fall sim=0.9867
+         nbr: 64. Fall sim=0.9856
+         nbr: 9. Train sim=0.9799
+  [FAIL] GT=64. Fall | Pred=I | conf=0.401
+         nbr: 40. I sim=0.9705
+         nbr: 46. you (plural) sim=0.9702
+         nbr: 40. I sim=0.9701
+  [OK  ] GT=64. Fall | Pred=FALL | conf=0.403
+         nbr: 64. Fall sim=0.9903
+         nbr: 64. Fall sim=0.9896
+         nbr: 37. Hat sim=0.9792
+  [OK  ] GT=65. Season | Pred=SEASON | conf=0.613
+         nbr: 65. Season sim=0.9967
+         nbr: 65. Season sim=0.9511
+         nbr: 65. Season sim=0.9299
+  [TOP3] GT=65. Season | Pred=WINDOW | conf=0.397
+         nbr: 65. Season sim=0.9976
+         nbr: 28. Window sim=0.9569
+         nbr: 28. Window sim=0.9476
+  [OK  ] GT=65. Season | Pred=SEASON | conf=0.610
+         nbr: 65. Season sim=0.9809
+         nbr: 65. Season sim=0.9748
+         nbr: 65. Season sim=0.9388
+  [OK  ] GT=1. Religion | Pred=RELIGION | conf=0.410
+         nbr: 1. Religion sim=0.9978
+         nbr: 1. Religion sim=0.9751
+         nbr: 56. Grey sim=0.9476
+  [OK  ] GT=1. Religion | Pred=RELIGION | conf=0.604
+         nbr: 1. Religion sim=0.9969
+         nbr: 1. Religion sim=0.9747
+         nbr: 23. God sim=0.9604
+  [OK  ] GT=1. Religion | Pred=RELIGION | conf=0.408
+         nbr: 1. Religion sim=0.9989
+         nbr: 1. Religion sim=0.9497
+         nbr: 39. Key sim=0.9471
+  [TOP3] GT=10. Energy | Pred=BUS | conf=0.200
+         nbr: 14. Bus sim=0.9173
+         nbr: 10. Energy sim=0.9167
+         nbr: 34. Pen sim=0.9158
+  [TOP3] GT=10. Energy | Pred=T-SHIRT | conf=0.400
+         nbr: 42. T-Shirt sim=0.9269
+         nbr: 10. Energy sim=0.9061
+         nbr: 50. Alright sim=0.8884
+  [TOP3] GT=10. Energy | Pred=ALRIGHT | conf=0.403
+         nbr: 50. Alright sim=0.9200
+         nbr: 10. Energy sim=0.9103
+         nbr: 50. Alright sim=0.8948
+  [TOP3] GT=11. War | Pred=T-SHIRT | conf=0.398
+         nbr: 11. War sim=0.9527
+         nbr: 42. T-Shirt sim=0.9321
+         nbr: 60. Radio sim=0.9303
+  [OK  ] GT=11. War | Pred=WAR | conf=0.403
+         nbr: 11. War sim=0.9296
+         nbr: 11. War sim=0.9278
+         nbr: 4. Bird sim=0.9242
+  [TOP3] GT=11. War | Pred=T-SHIRT | conf=0.401
+         nbr: 11. War sim=0.9421
+         nbr: 42. T-Shirt sim=0.9382
+         nbr: 42. T-Shirt sim=0.9274
+  [FAIL] GT=12. Peace | Pred=GREY | conf=0.399
+         nbr: 29. Library sim=0.9499
+         nbr: 56. Grey sim=0.9429
+         nbr: 85. Student sim=0.9411
+  [TOP3] GT=12. Peace | Pred=LETTER | conf=0.401
+         nbr: 12. Peace sim=0.9683
+         nbr: 41. Letter sim=0.9322
+         nbr: 41. Letter sim=0.9272
+  [FAIL] GT=12. Peace | Pred=WET | conf=0.201
+         nbr: 96. wet sim=0.9439
+         nbr: 29. Library sim=0.9385
+         nbr: 85. Student sim=0.9368
+  [OK  ] GT=13. Attack | Pred=ATTACK | conf=0.209
+         nbr: 13. Attack sim=0.9871
+         nbr: 53. Fan sim=0.9419
+         nbr: 70. Grandmother sim=0.9394
+  [OK  ] GT=13. Attack | Pred=ATTACK | conf=0.401
+         nbr: 13. Attack sim=0.9600
+         nbr: 89. Waiter sim=0.9480
+         nbr: 78. Girl sim=0.9430
+  [OK  ] GT=13. Attack | Pred=ATTACK | conf=0.403
+         nbr: 13. Attack sim=0.9753
+         nbr: 77. Boy sim=0.9441
+         nbr: 19. male sim=0.9440
+  [OK  ] GT=14. Election | Pred=ELECTION | conf=0.612
+         nbr: 14. Election sim=0.9710
+         nbr: 14. Election sim=0.9132
+         nbr: 44. Shoes sim=0.8770
+  [TOP3] GT=14. Election | Pred=SHOES | conf=0.601
+         nbr: 44. Shoes sim=0.9309
+         nbr: 14. Election sim=0.9215
+         nbr: 44. Shoes sim=0.9113
+  [TOP3] GT=14. Election | Pred=TRANSPORTATION | conf=0.592
+         nbr: 14. Election sim=0.9826
+         nbr: 17. Transportation sim=0.9250
+         nbr: 17. Transportation sim=0.9110
+  [OK  ] GT=15. Newspaper | Pred=NEWSPAPER | conf=0.403
+         nbr: 15. Newspaper sim=0.9843
+         nbr: 15. Newspaper sim=0.9764
+         nbr: 1. loud sim=0.9711
+  [OK  ] GT=15. Newspaper | Pred=NEWSPAPER | conf=0.598
+         nbr: 85. Student sim=0.9644
+         nbr: 15. Newspaper sim=0.9611
+         nbr: 96. wet sim=0.9599
+  [OK  ] GT=15. Newspaper | Pred=NEWSPAPER | conf=0.403
+         nbr: 15. Newspaper sim=0.9860
+         nbr: 15. Newspaper sim=0.9860
+         nbr: 1. loud sim=0.9759
+  [OK  ] GT=16. Gun | Pred=GUN | conf=0.204
+         nbr: 16. Gun sim=0.9784
+         nbr: 70. Grandmother sim=0.9569
+         nbr: 2. Death sim=0.9527
+  [FAIL] GT=16. Gun | Pred=GOOD EVENING | conf=0.800
+         nbr: 53. Good evening sim=0.9721
+         nbr: 53. Good evening sim=0.9708
+         nbr: 53. Good evening sim=0.9670
+  [FAIL] GT=16. Gun | Pred=CLOTHING | conf=0.399
+         nbr: 40. I sim=0.9650
+         nbr: 15. expensive sim=0.9614
+         nbr: 46. Clothing sim=0.9586
+  [TOP3] GT=17. Sport | Pred=ANIMAL | conf=0.401
+         nbr: 8. Animal sim=0.9270
+         nbr: 17. Sport sim=0.9261
+         nbr: 14. Bus sim=0.9151
+  [OK  ] GT=17. Sport | Pred=SPORT | conf=0.204
+         nbr: 17. Sport sim=0.9289
+         nbr: 30. Bedroom sim=0.9129
+         nbr: 8. Animal sim=0.9080
+  [TOP3] GT=17. Sport | Pred=BUS | conf=0.395
+         nbr: 17. Sport sim=0.9727
+         nbr: 50. Tool sim=0.9477
+         nbr: 14. Bus sim=0.9310
+  [OK  ] GT=18. Exercise | Pred=EXERCISE | conf=0.606
+         nbr: 18. Exercise sim=0.9433
+         nbr: 18. Exercise sim=0.9388
+         nbr: 18. Exercise sim=0.9261
+  [TOP3] GT=18. Exercise | Pred=COW | conf=0.399
+         nbr: 18. Exercise sim=0.9543
+         nbr: 5. Cow sim=0.9472
+         nbr: Ex. Monsoon sim=0.9466
+  [OK  ] GT=18. Exercise | Pred=EXERCISE | conf=0.610
+         nbr: 18. Exercise sim=0.9575
+         nbr: 18. Exercise sim=0.9552
+         nbr: 18. Exercise sim=0.9415
+  [OK  ] GT=19. Ball | Pred=BALL | conf=0.401
+         nbr: 19. Ball sim=0.9775
+         nbr: 49. Blue sim=0.9725
+         nbr: 19. Ball sim=0.9724
+  [TOP3] GT=19. Ball | Pred=GREEN | conf=0.598
+         nbr: 19. Ball sim=0.9887
+         nbr: 48. Green sim=0.9741
+         nbr: 48. Green sim=0.9717
+  [TOP3] GT=19. Ball | Pred=BLUE | conf=0.401
+         nbr: 49. Blue sim=0.9598
+         nbr: 49. Blue sim=0.9596
+         nbr: 19. Ball sim=0.9586
+  [OK  ] GT=2. Death | Pred=DEATH | conf=0.205
+         nbr: 2. Death sim=0.9388
+         nbr: 95. Author sim=0.9176
+         nbr: 32. Bathroom sim=0.9095
+  [OK  ] GT=2. Death | Pred=DEATH | conf=0.404
+         nbr: 2. Death sim=0.9426
+         nbr: 95. Author sim=0.9156
+         nbr: 1. Religion sim=0.9147
+  [OK  ] GT=2. Death | Pred=DEATH | conf=0.205
+         nbr: 2. Death sim=0.9940
+         nbr: 70. Grandmother sim=0.9713
+         nbr: 16. train ticket sim=0.9696
+  [OK  ] GT=20. Price | Pred=PRICE | conf=0.210
+         nbr: 20. Price sim=0.9845
+         nbr: 63. Winter sim=0.9413
+         nbr: 52. Pink sim=0.9321
+  [OK  ] GT=20. Price | Pred=PRICE | conf=0.412
+         nbr: 20. Price sim=0.9765
+         nbr: 49. Ring sim=0.9079
+         nbr: 20. Price sim=0.9032
+  [OK  ] GT=20. Price | Pred=PRICE | conf=0.201
+         nbr: 20. Price sim=0.8871
+         nbr: 33. Pencil sim=0.8852
+         nbr: 46. Clothing sim=0.8844
+  [FAIL] GT=21. Sign | Pred=CLOTHING | conf=0.201
+         nbr: 46. Clothing sim=0.9611
+         nbr: 38. Dress sim=0.9562
+         nbr: 90. cool sim=0.9559
+  [OK  ] GT=21. Sign | Pred=SIGN | conf=0.202
+         nbr: 21. Sign sim=0.9616
+         nbr: 41. you sim=0.9553
+         nbr: 38. Dress sim=0.9511
+  [FAIL] GT=21. Sign | Pred=CLOTHING | conf=0.201
+         nbr: 46. Clothing sim=0.9624
+         nbr: 90. cool sim=0.9617
+         nbr: 38. Dress sim=0.9559
+  [FAIL] GT=22. Science | Pred=ACTOR | conf=0.399
+         nbr: 55. Computer sim=0.9177
+         nbr: 25. Chair sim=0.9042
+         nbr: 98. Actor sim=0.9032
+  [FAIL] GT=22. Science | Pred=TRANSPORTATION | conf=0.201
+         nbr: 17. Transportation sim=0.9020
+         nbr: 41. Shirt sim=0.8997
+         nbr: 44. Shoes sim=0.8990
+  [FAIL] GT=22. Science | Pred=FATHER | conf=0.399
+         nbr: 61. Father sim=0.8822
+         nbr: 44. Shoes sim=0.8818
+         nbr: 17. Transportation sim=0.8695
+  [TOP3] GT=23. God | Pred=CAR | conf=0.400
+         nbr: 23. God sim=0.9637
+         nbr: 11. Car sim=0.9535
+         nbr: 65. Season sim=0.9319
+  [FAIL] GT=23. God | Pred=QUEEN | conf=0.400
+         nbr: 92. old sim=0.9786
+         nbr: 74. Queen sim=0.9758
+         nbr: 73. King sim=0.9717
+  [FAIL] GT=23. God | Pred=HELLO | conf=0.400
+         nbr: 9. Train sim=0.9688
+         nbr: 48. Hello sim=0.9678
+         nbr: 5. Beautiful sim=0.9671
+  [OK  ] GT=3. Medicine | Pred=MEDICINE | conf=0.401
+         nbr: 3. Medicine sim=0.9272
+         nbr: 33. Pencil sim=0.9226
+         nbr: 16. train ticket sim=0.9180
+  [OK  ] GT=3. Medicine | Pred=MEDICINE | conf=0.403
+         nbr: 3. Medicine sim=0.9264
+         nbr: 3. Medicine sim=0.9211
+         nbr: 29. Library sim=0.9133
+  [OK  ] GT=3. Medicine | Pred=MEDICINE | conf=0.209
+         nbr: 3. Medicine sim=0.9719
+         nbr: 32. Bathroom sim=0.9241
+         nbr: 11. Car sim=0.9234
+  [TOP3] GT=4. Money | Pred=BOAT | conf=0.395
+         nbr: 4. Money sim=0.9383
+         nbr: 15. Boat sim=0.8477
+         nbr: 39. Key sim=0.8307
+  [FAIL] GT=4. Money | Pred=DRESS | conf=0.201
+         nbr: 38. Dress sim=0.9534
+         nbr: 40. I sim=0.9533
+         nbr: 4. sad sim=0.9521
+  [FAIL] GT=4. Money | Pred=DRESS | conf=0.201
+         nbr: 38. Dress sim=0.9650
+         nbr: 40. I sim=0.9648
+         nbr: 4. sad sim=0.9632
+  [OK  ] GT=5. Bill | Pred=BILL | conf=0.205
+         nbr: 5. Bill sim=0.9353
+         nbr: 45. we sim=0.9180
+         nbr: 23. Court sim=0.9083
+  [OK  ] GT=5. Bill | Pred=BILL | conf=0.401
+         nbr: 5. Bill sim=0.8989
+         nbr: 42. T-Shirt sim=0.8946
+         nbr: 42. T-Shirt sim=0.8930
+  [OK  ] GT=5. Bill | Pred=BILL | conf=0.401
+         nbr: 85. slow sim=0.8832
+         nbr: 5. Bill sim=0.8814
+         nbr: 5. Bill sim=0.8772
+  [TOP3] GT=6. Marriage | Pred=SHOES | conf=0.403
+         nbr: 44. Shoes sim=0.8774
+         nbr: 41. Shirt sim=0.8758
+         nbr: 44. Shoes sim=0.8745
+  [OK  ] GT=6. Marriage | Pred=MARRIAGE | conf=0.207
+         nbr: 6. Marriage sim=0.9116
+         nbr: 44. Shoes sim=0.8803
+         nbr: 32. weak sim=0.8725
+  [TOP3] GT=6. Marriage | Pred=BOAT | conf=0.399
+         nbr: 6. Marriage sim=0.9213
+         nbr: 39. Key sim=0.9167
+         nbr: 15. Boat sim=0.9097
+  [OK  ] GT=7. Team | Pred=TEAM | conf=0.206
+         nbr: 7. Team sim=0.9547
+         nbr: 42. T-Shirt sim=0.9314
+         nbr: 31. Kitchen sim=0.9219
+  [TOP3] GT=7. Team | Pred=T-SHIRT | conf=0.406
+         nbr: 42. T-Shirt sim=0.9617
+         nbr: 7. Team sim=0.9099
+         nbr: 50. Alright sim=0.9095
+  [FAIL] GT=7. Team | Pred=RING | conf=0.204
+         nbr: 49. Ring sim=0.9277
+         nbr: 50. Alright sim=0.9122
+         nbr: 63. Winter sim=0.9121
+  [FAIL] GT=8. Race (ethnicity) | Pred=KITCHEN | conf=0.202
+         nbr: 31. Kitchen sim=0.9150
+         nbr: 17. Sport sim=0.9142
+         nbr: 50. Tool sim=0.9050
+  [OK  ] GT=8. Race (ethnicity) | Pred=RACE (ETHNICITY) | conf=0.398
+         nbr: 42. T-Shirt sim=0.9327
+         nbr: 8. Race (ethnicity) sim=0.9065
+         nbr: 50. Alright sim=0.8899
+  [TOP3] GT=8. Race (ethnicity) | Pred=T-SHIRT | conf=0.207
+         nbr: 42. T-Shirt sim=0.9278
+         nbr: 8. Race (ethnicity) sim=0.8976
+         nbr: 31. Kitchen sim=0.8929
+  [OK  ] GT=9. Technology | Pred=TECHNOLOGY | conf=0.402
+         nbr: 9. Technology sim=0.9604
+         nbr: 85. Student sim=0.9539
+         nbr: 9. Technology sim=0.9499
+  [OK  ] GT=9. Technology | Pred=TECHNOLOGY | conf=0.207
+         nbr: 9. Technology sim=0.9743
+         nbr: 16. train ticket sim=0.9449
+         nbr: 2. Death sim=0.9327
+  [TOP3] GT=9. Technology | Pred=STUDENT | conf=0.202
+         nbr: 85. Student sim=0.9707
+         nbr: 9. Technology sim=0.9653
+         nbr: 24. School sim=0.9574
+
+Top-1 Accuracy: 404/813  (49.7%)
+Top-3 Accuracy: 585/813  (72.0%)
+
+NOTE: Results from test split only; no training data in evaluation.

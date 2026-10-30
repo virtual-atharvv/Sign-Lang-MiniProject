@@ -1,0 +1,6 @@
+name = "signbridge-gateway"
+main = "src/index.js"
+compatibility_date = "2023-05-18"
+
+[vars]
+HF_BACKEND_URL = "https://yourname-signbridge.hf.space"

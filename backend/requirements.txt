@@ -1,0 +1,21 @@
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=1.10.0
+numpy>=1.24.0
+omegaconf>=2.3.0
+torch>=2.0.0
+torchvision
+transformers>=4.28.0
+pandas>=2.0.0
+python-multipart>=0.0.6
+
+# OpenHands / AI4Bharat dependencies (required for ST-GCN encoder)
+pytorch-lightning>=1.5.0
+albumentations
+natsort
+h5py
+torchmetrics>=0.5.1
+timm
+scikit-learn>=1.0
+opencv-python-headless
+PyYAML>=5.4.1,<6.1

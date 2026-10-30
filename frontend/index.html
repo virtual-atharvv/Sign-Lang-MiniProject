@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignBridge — Real-Time Indian Sign Language Translator</title>
+    <meta name="description" content="Grammar-aware real-time Indian Sign Language (ISL) translator powered by MediaPipe and deep learning models.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--
+        MediaPipe Holistic (legacy stable CDN — regular script, no ES module issues)
+        Exposes: window.Holistic  via @mediapipe/holistic
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="logo-icon">🌉</div>
+                <div class="brand-text">
+                    <h1>SignBridge <span class="badge">ISL Live</span></h1>
+                    <p>Grammar-Aware Real-Time Indian Sign Language Translator</p>
+                </div>
+            </div>
+            <div class="header-status">
+                <div id="status-indicator" class="status-badge connecting">
+                    <span class="dot"></span>
+                    <span id="status-text">Initializing…</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Left: Camera & Landmark Viewport -->
+            <section class="viewport-section">
+                <div class="video-card glass-panel">
+                    <div class="video-container">
+                        <video id="webcam" autoplay playsinline muted></video>
+                        <canvas id="output-canvas"></canvas>
+                        <div id="camera-placeholder" class="camera-placeholder">
+                            <div class="spinner" id="cam-spinner" style="display:none"></div>
+                            <p id="camera-status-msg">Click "Start Camera" to begin live ISL translation</p>
+                        </div>
+                    </div>
+                    <div class="video-controls">
+                        <button id="btn-toggle-cam" class="btn btn-primary">
+                            <span class="icon">📷</span> Start Camera
+                        </button>
+                        <button id="btn-toggle-tts" class="btn btn-secondary active">
+                            <span class="icon">🔊</span> Speech: ON
+                        </button>
+                        <select id="mode-select" class="select-input">
+                            <option value="continuous">Continuous Signing Mode</option>
+                            <option value="isolated">Isolated Gesture Mode</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right: Translation & Output Dashboard -->
+            <section class="dashboard-section">
+                <!-- Sentence Output Card -->
+                <div class="output-card glass-panel highlight-card">
+                    <div class="card-header">
+                        <h2>Spoken Translation</h2>
+                        <button id="btn-speak-again" class="btn-icon" title="Speak Again">🔊</button>
+                    </div>
+                    <div class="sentence-box">
+                        <p id="translated-sentence" class="placeholder-text">Translation will appear here live...</p>
+                    </div>
+                </div>
+
+                <!-- Gloss Sequence Card -->
+                <div class="output-card glass-panel">
+                    <div class="card-header">
+                        <h2>Detected ISL Gloss Sequence</h2>
+                        <span id="confidence-badge" class="conf-tag">Conf: 0%</span>
+                    </div>
+                    <div id="gloss-container" class="gloss-chips">
+                        <span class="chip-empty">Waiting for sign gestures...</span>
+                    </div>
+                </div>
+
+                <!-- Performance Metrics Panel -->
+                <div class="metrics-panel glass-panel">
+                    <div class="metric-item">
+                        <span class="label">Client FPS</span>
+                        <span id="metric-fps" class="val">0</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="label">API Latency</span>
+                        <span id="metric-latency" class="val">0 ms</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="label">Keypoints Sent</span>
+                        <span id="metric-keypoints" class="val">75/frame</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>SignBridge • Client-Side Landmark Extraction (Privacy First) • AI4Bharat OpenHands</p>
+        </footer>
+    </div>
+
+    <script src="js/tts.js?v=6"></script>
+    <script src="js/api.js?v=6"></script>
+    <script src="js/mediapipe.js?v=6"></script>
+    <script src="js/app.js?v=6"></script>
+</body>
+</html>
